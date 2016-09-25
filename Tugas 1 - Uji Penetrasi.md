@@ -8,6 +8,18 @@
 
 ## Dasar Teori
 
+### Ubuntu Server
+
+### Kali Linux
+
+### THC-Hydra
+
+### Medusa
+
+### Fail2ban
+
+### (..sembarang)
+
 ## Uji Penetrasi 1
 
 ### Instalasi Ubuntu Server
@@ -92,3 +104,27 @@
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/4.PNG?raw=true)
 7. Jika Anda menginginkan SSH Server berjalan otomatis setelah reboot, masukkan perintah 'sudo systemctl enable ssh'.
 8. SSH Server selesai di install.
+
+### Uji Penetrasi 1
+
+### *Medusa*
+
+### *THC-Hydra*
+
+### Uji Penetrasi 2
+
+### *Konfigurasi Fail2ban*
+
+### *Konfigurasi blabla*
+
+### *Konfigurasi SSH Server*
+
+### *Medusa*
+
+### *THC-Hydra*
+
+## Kesimpulan dan Saran
+
+## Kesimpulan
+
+## Saran
