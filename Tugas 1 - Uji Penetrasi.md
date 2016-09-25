@@ -16,8 +16,6 @@
 
 ### *Medusa*
 
-### *Fail2ban*
-
 ### *SSHGuard*
 
 ## Uji Penetrasi 1
@@ -110,8 +108,6 @@
 ### *THC-Hydra*
 
 ## Uji Penetrasi 2
-
-### *Konfigurasi Fail2ban*
 
 ### *Konfigurasi SSHGuard*
 
