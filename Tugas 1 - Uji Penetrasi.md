@@ -10,7 +10,7 @@
 
 ## Uji Penetrasi 1
 
-* **Instalasi Ubuntu Server**
+### Instalasi Ubuntu Server
 1. Buka Virtual Box atau software virtualisasi sejenis, disini kami menggunakan Virtual Box.
 2. Setelah halaman utama Virtual Box terbuka, pilih menu "Baru" di pojok kiri atas (icon menu adalah lingkaran biru bergerigi).
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
