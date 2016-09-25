@@ -8,21 +8,21 @@
 
 ## Dasar Teori
 
-### Ubuntu Server
+### *Ubuntu Server*
 
-### Kali Linux
+### *Kali Linux*
 
-### THC-Hydra
+### *THC-Hydra*
 
-### Medusa
+### *Medusa*
 
-### Fail2ban
+### *Fail2ban*
 
-### (..sembarang)
+### *(..sembarang)*
 
 ## Uji Penetrasi 1
 
-### Instalasi Ubuntu Server
+### *Instalasi Ubuntu Server*
 1. Buka Virtual Box atau software virtualisasi sejenis, disini kami menggunakan Virtual Box.
 2. Setelah halaman utama Virtual Box terbuka, pilih menu "Baru" di pojok kiri atas (icon menu adalah lingkaran biru bergerigi).
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG?raw=true)
@@ -88,9 +88,9 @@
 34. Setelah semua proses selesai, Anda akan masuk ke dalam Ubuntu Server. Masukkan username dan password untuk dapat menjalankan Ubuntu Server.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/29.PNG?raw=true)
 
-### Instalasi OS Penetrasi (Kali Linux)
+### *Instalasi OS Penetrasi (Kali Linux)*
 
-### Instalasi SSH Server
+### *Instalasi SSH Server*
 1. Pastikan Anda telah masuk ke dalam Ubuntu Server
 2. Masukkan perintah untuk update OS terlebih dahulu dengan mengetikkan 'sudo apt-get update'
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/1.PNG?raw=true)
@@ -123,6 +123,6 @@
 
 ## Kesimpulan dan Saran
 
-### Kesimpulan
+### *Kesimpulan*
 
-### Saran
+### *Saran*
