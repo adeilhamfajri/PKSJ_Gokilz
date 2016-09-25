@@ -120,12 +120,50 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ## Uji Penetrasi 2
 
 ### *Konfigurasi SSHGuard*
+1. Pasikanlah server telah diupdate paling baru, jika belum ketikkan perintah 'apt-get update'.
+2. Setelah itu untuk melakukan instalasi SSHGuard, dapat dilakukan dengan perintah 'apt-get install sshguard'.
+3. Tunggulah beberapa saat hingga proses instalasi selesai.
+4. Lakukan konfigurasi SSHGuard (SSHGuard tidak memiliki file konfigurasi, sehingga harus menggunakan iptables untuk mengatur mekanisme pemblokiran.
+5. Masukkan perintah 'iptables -N sshguard'.
+6. Kemudian masukkan perintah 'iptables -A INPUT -j sshguard'.
+7. Untuk melakukan pemblokiran port (SSH, FTP, IMAP, POP dll) dapat dilakukan dengan memasukkan perintah 'iptables -A INPUT -m multiport -p tcp --destination-ports 21,22,110,143 -j sshguard'.
+8. Masukkan perintah 'iptables -F'.
+9. Masukkan perintah 'iptables -X'.
+10. Masukkan perintah 'iptables -P'.
+11. Masukkan juga perintah 'iptables -P INPUT ACCEPT'.
+12. Lalu masukkan 'iptables -P FORWARD ACCEPT'.
+13. Dan juga perintah 'iptables -P OUTPUT ACCEPT'.
+14. Dua perintah terakhir adalah 'iptables -N sshguard'.
+15. Dan perintah 'iptables -A INPUT -j sshguard'.
+16. SSHGuard berhasil terinstal ddalam server, untuk melakukan pengecekan status SSHGuard, masukkan 'service sshguard status'. Makan akan muncul status SSHGuard (di bawah ini SSHGuard sedang aktif).
 
 ### *Konfigurasi SSH Server*
+1. Setelah di topik sebelumnya SSH Server telah terinstall di server, sekarang saatnya untuk melakukan konfigurasi pada SSH Server.
+2. Pertama-tama bukalah file konfigurasi dengan perintah 'nano /etc/ssh/sshd_config'.
+3. Maka akan tampak isi file sshd_config seperti di bawah ini.
+4. Yang akan kita lakukan adalah melakukan sedikit konfigurasi pada bagian port agar port untuk ssh tidak 22 melainkan 354. Cara yang dapat dilakukan adalah mengcomment port 22 dan menambahkan port 354, seperti pada contoh.
+5. Setelah port berubah, kita harus menjalankan ulang ssh server dengan perintah '/etc/init.d/ssh restart'.
+6. Untuk melakukan percobaan dapat kita lakukan dengan perintah 'ssh root@localhost'.
+7. Jika muncul report seperti di bawah ini, maka port ssh berhasil dialhkan.
+8. Untuk dapat tersambung dapat dilakukan dengan memasukkan 'ssh root@localhost -p 354'.
+9. Dengan memasukkan perintah 'service ssh status', kita dapat melihat keadaan ssh yang ada pada server kita. Tanda 'Active (running)' menandakan bahwa ssh sedang berjalan.
 
 ### *Medusa*
+1. Sebelum menggunakan Medusa, pastikan dahulu melakukan 'apt-get update'. Kemudian instal Medusa dengan perintah 'apt-get install medusa'. Ternyata Kali Linux juga telah menyediakan Medusa sebagai brute-force penetration tool.
+2. Langkah selanjutnya adalah melakukan penetrasi ke Ubuntu Server dengan perintah 'medusa -h [IP_ADDRESS] -u [USERNAME] -P [FILE] -M ssh'. Contohnya seperti di bawah ini.
+3. Hasil yang didapat adalah 'failed to connect', hal ini dikarenakan konfigurasi SSH Server telah kita ubah port defaulnya menjadi 354.
+4. Sekarang kita kembalikan konfigurasi port menjadi 22 dan pastikan SSHGuard telah berjalan.
+5. Masukkan perintah penetrasi seperti dibawah.
+6. Hasil yang kita dapat adalah brute-force attack yang kita lakukan hanya berjalan beberapa iterasi sebelum kemudian SSHGuard pada server memblokir akses yang kita lakukan.
 
 ### *THC-Hydra*
+1. Sekarang akan kita coba lakukan kembali penetrasi pada Ubuntu Server menggunakan THC-Hydra.
+2. Kita siapkan dahulu sebuah file yang berisi daftar password yang akan di brute-force, disini kami menamai filenya pass.txt.
+3. Penetrasi dapat dilakukan dengan perintah 'hydra -l [username] -P [FILE] IP_DESTINATION ssh'. Contohnya seperti: 'hydra -l pksjserver -P pass.txt 10.151.43.177 ssh'.
+4. Koneksi ke Ubuntu Server di refused karena port ssh 22 (dafault) telah berganti menjadi 354.
+5. Sekarang konfigurasi port telah kita kembalikan menjadi 22 (default). Kita coba lakukan lagi penetrasi. Hasilnya adalah koneksi Timeout (koneksi ke server memakan waktu yang terlalu lama karena IP kita diblok oleh server).
+6. Sekarang mari kita coba lihat log file di sisi Ubuntu Server dengan memasukkan perintah 'nano /var/log/auth.log'.
+7. Berikut ini salah satu baris yang menunjukkan bahwa IP Kali Linux sedang terblokir dalam waktu 945 detik.
 
 ## Kesimpulan dan Saran
 
