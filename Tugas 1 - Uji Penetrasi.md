@@ -75,3 +75,20 @@
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/28.PNG?raw=true)
 34. Setelah semua proses selesai, Anda akan masuk ke dalam Ubuntu Server. Masukkan username dan password untuk dapat menjalankan Ubuntu Server.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/29.PNG?raw=true)
+
+### Instalasi OS Penetrasi (Kali Linux)
+
+### Instalasi SSH Server
+1. Pastikan Anda telah masuk ke dalam Ubuntu Server
+2. Masukkan perintah untuk update OS terlebih dahulu dengan mengetikkan 'sudo apt-get update'
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/1.PNG?raw=true)
+3. Untuk melakukan install SSH Server tuliskan perintah 'sudo apt-get install ssh'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/2.PNG?raw=true)
+4. Tunggulah beberapa saat hingga proses instalasi selesai dilakukan.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/101.PNG?raw=true)
+5. Jalankan SSH Server dengan mengetikkan perintah 'sudo service ssh start'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/3.PNG?raw=true)
+6. Untuk melakukan pengecekan apakah SSH Server telah berjalan, ketikkan perintah 'sudo service ssh status'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/4.PNG?raw=true)
+7. Jika Anda menginginkan SSH Server berjalan otomatis setelah reboot, masukkan perintah 'sudo systemctl enable ssh'.
+8. SSH Server selesai di install.
