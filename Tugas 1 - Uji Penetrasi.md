@@ -105,13 +105,11 @@
 7. Jika Anda menginginkan SSH Server berjalan otomatis setelah reboot, masukkan perintah 'sudo systemctl enable ssh'.
 8. SSH Server selesai di install.
 
-### Uji Penetrasi 1
-
 ### *Medusa*
 
 ### *THC-Hydra*
 
-### Uji Penetrasi 2
+## Uji Penetrasi 2
 
 ### *Konfigurasi Fail2ban*
 
