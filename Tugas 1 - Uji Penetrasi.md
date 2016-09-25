@@ -14,19 +14,19 @@ Oleh karena itu, disini kami akan mencoba untuk melakukan penetrasi ke server me
 ## Dasar Teori
 
 ### *Ubuntu Server*
-	Ubuntu Server adalah salah satu varian dari distro Ubuntu yang telah didesain khusus dengan kernel yang telah dikustomisasi untuk bekerja sebagai sistem operasi server. Ubuntu server menyediakan platform yang terintegrasi dengan baik yang akan memudahkan melakukan deploy server dengan fasilitas layanan internet standar seperti e-mail, web, DNS, file serving, hingga manajemen database. Sebagai turunan dari distro Debian, karakter alami Ubuntu server yang diwariskan dari Debian adalah faktor keamanan (security). Ubuntu server tidak membiarkan keberadaan port yang terbuka setelah proses instalasi, dan hanya akan memuat software-software yang esensial dan dibutuhkan untuk membangun sebuah sistem server yang aman.
+Ubuntu Server adalah salah satu varian dari distro Ubuntu yang telah didesain khusus dengan kernel yang telah dikustomisasi untuk bekerja sebagai sistem operasi server. Ubuntu server menyediakan platform yang terintegrasi dengan baik yang akan memudahkan melakukan deploy server dengan fasilitas layanan internet standar seperti e-mail, web, DNS, file serving, hingga manajemen database. Sebagai turunan dari distro Debian, karakter alami Ubuntu server yang diwariskan dari Debian adalah faktor keamanan (security). Ubuntu server tidak membiarkan keberadaan port yang terbuka setelah proses instalasi, dan hanya akan memuat software-software yang esensial dan dibutuhkan untuk membangun sebuah sistem server yang aman.
 
 ### *Kali Linux*
-	Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testing dan audit keamanan. Kali Linux tersedia dalam versi 32 bit, 64 bit, dan ARM, serta sejumlah build khusus untuk berbagai macam platform hardware populer lainnya.
+Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testing dan audit keamanan. Kali Linux tersedia dalam versi 32 bit, 64 bit, dan ARM, serta sejumlah build khusus untuk berbagai macam platform hardware populer lainnya.
 
 ### *THC-Hydra*
-	THC Hydra adalah sebuah password cracking tools yang dapat melakukan dictionary attack terhadap lebih dari lima puluh protokol jaringan dengan sangat cepat, lebih cepat bila dibandingkan dengan password cracking tools yang lain. Menambahkan modul dan penambahan fitur dapat dengan mudah dilakukan. THC Hydra tersedia untuk Windows, Linux, Free BSD, Solaris, dan OS X.
+THC Hydra adalah sebuah password cracking tools yang dapat melakukan dictionary attack terhadap lebih dari lima puluh protokol jaringan dengan sangat cepat, lebih cepat bila dibandingkan dengan password cracking tools yang lain. Menambahkan modul dan penambahan fitur dapat dengan mudah dilakukan. THC Hydra tersedia untuk Windows, Linux, Free BSD, Solaris, dan OS X.
 
 ### *Medusa*
-	Medusa juga merupakan sebuah password cracking tools seperti THC Hydra. Attacker bisa memilih secara fleksibel apakah akan melakukan cracking terhadap password, host, atau username dan password sekaligus ketika melakukan attack. Medusa juga bisa melakukan parallel attack. Parallel attack dapat dilakukan dengan menyediakan daftar username bersamaan dengan daftar password.
+Medusa juga merupakan sebuah password cracking tools seperti THC Hydra. Attacker bisa memilih secara fleksibel apakah akan melakukan cracking terhadap password, host, atau username dan password sekaligus ketika melakukan attack. Medusa juga bisa melakukan parallel attack. Parallel attack dapat dilakukan dengan menyediakan daftar username bersamaan dengan daftar password.
 
 ### *SSHGuard*
-	SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari file-file log. SSHGuard melindungi host dari serangan brute force terhadap SSH dan layanan lainnya. Ketika pada file log sistem terdeteksi bahwa seseorang melakukan serangan brute force, SSHGuard memblokir alamat IP dari orang tersebut menggunakan salah satu dari beberapa backend firewall, termasuk iptables, ipwf, dan pf.
+SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari file-file log. SSHGuard melindungi host dari serangan brute force terhadap SSH dan layanan lainnya. Ketika pada file log sistem terdeteksi bahwa seseorang melakukan serangan brute force, SSHGuard memblokir alamat IP dari orang tersebut menggunakan salah satu dari beberapa backend firewall, termasuk iptables, ipwf, dan pf.
 
 ## Uji Penetrasi 1
 
