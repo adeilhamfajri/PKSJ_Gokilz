@@ -18,7 +18,7 @@
 
 ### *Fail2ban*
 
-### *(..sembarang)*
+### *SSHGuard*
 
 ## Uji Penetrasi 1
 
@@ -113,7 +113,7 @@
 
 ### *Konfigurasi Fail2ban*
 
-### *Konfigurasi blabla*
+### *Konfigurasi SSHGuard*
 
 ### *Konfigurasi SSH Server*
 
