@@ -98,7 +98,9 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 
 ### *Instalasi OS Penetrasi (Kali Linux)*
 1. Untuk instal Kali Linux, pertama-tama berikan nama untuk virtual machine, pilih tipe yaitu `Linux` dan pilihlah versi sesuai file .ISO Anda yaitu `32-bit` atau `64-bit`.
+
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/1.PNG?raw=true)
+
 2. Alokasikan RAM sesuai kemampuan komputer Anda.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/2.PNG?raw=true)
 3. Pilih `Buat hard disk virtual sekarang`.
