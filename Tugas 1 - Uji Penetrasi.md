@@ -99,7 +99,18 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ### *Instalasi OS Penetrasi (Kali Linux)*
 1. Pilih bahasa yang anda inginkan
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/1.JPG?raw=true)
-
+2. Pilih lokasi
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/2.JPG?raw=true)
+3. Konfigurasi inputan keyboard
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/3.JPG?raw=true)
+4. `Loading addtional components`
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/4.JPG?raw=true)
+5. Inputkan nama hostname
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/5.JPG?raw=true)
+6. Inputkan nama domain
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/6.JPG?raw=true)
+7. Konfigurasi username dan password
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/7.JPG?raw=true)
 
 ### *Instalasi SSH Server*
 1. Pastikan Anda telah masuk ke dalam Ubuntu Server
