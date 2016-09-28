@@ -102,66 +102,126 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/1.PNG?raw=true)
 </p>
 2. Alokasikan RAM sesuai kemampuan komputer Anda.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/2.PNG?raw=true)
+</p>
 3. Pilih `Buat hard disk virtual sekarang`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/3.PNG?raw=true)
+</p>
 4. Pilih `VDI (VirtualBox Disk Image)`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/4.PNG?raw=true)
+</p>
 5. Pilihlah `Dialokasikan secara dinamik`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/5.PNG?raw=true)
+</p>
 6. Alokasikan besarnya hard disk untuk mesin virtual, di beberapa komputer 8GB akan mengalami masalah saat proses instalasi, jika masalah terjadi berikan alokasi setidaknya 16GB.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/6.PNG?raw=true)
+</p>
 7. Masuklah ke `Pengaturan` dan pada menu `Umum` lakukan settingan seperti di bawah ini.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/7.PNG?raw=true)
+</p>
 8. Pada menu `Sistem`, lakukan pengaturan seperti pada gambar.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/8.PNG?raw=true)
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/9.PNG?raw=true)
+</p>
 9. Pada menu `Tampilan`, sesuaikan pengaturan seperti pada gambar.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/10.PNG?raw=true)
+</p>
 10. Pada menu `Jaringan`, lakukan pengaturan seperti pada gambar.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/11.PNG?raw=true)
+</p>
 11. Jika sudah jalankan Kali Linux dan saat muncul pilihan, pilihlah `Install`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/12.PNG?raw=true)
+</p>
 12. Pilih bahasa yang anda inginkan.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/1.JPG?raw=true)
+</p>
 13. Pilih lokasi.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/2.JPG?raw=true)
+</p>
 14. Konfigurasi inputan keyboard.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/3.JPG?raw=true)
+</p>
 15. `Loading addtional components`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/4.JPG?raw=true)
+</p>
 16. Inputkan nama hostname.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/5.JPG?raw=true)
+</p>
 17. Inputkan nama domain.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/6.JPG?raw=true)
+</p>
 18. Konfigurasi username dan password.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/7.JPG?raw=true)
+</p>
 19. Ulangi input username dan password.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/8.JPG?raw=true)
+</p>
 20. Konfigurasi waktu.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/9.JPG?raw=true)
+</p>
 21. Pilih `Guide - use entire disk`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/10.JPG?raw=true)
+</p>
 22. Pilih partisi.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/11.JPG?raw=true)
+</p>
 23. Pada `Partition shceme`, pilih **All File in one partition**.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/12.JPG?raw=true)
+</p>
 24. Pilih **Finish partitioning and write changes to disk**.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/13.JPG?raw=true)
+</p>
 25. Pilih **YES**.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/14.JPG?raw=true)
+</p>
 26. Tunggu sejenak proses `Partitions Formating`.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/15.JPG?raw=true)
+</p>
 27. Pilih **YES**.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/16.JPG?raw=true)
+</p>
 28. Konfigurasi proxy.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/17.JPG?raw=true)
+</p>
 29. Pilih **YES**.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/18.JPG?raw=true)
+</p>
 30. Untuk **device**, maka pilih yang sudah tersedia.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/19.JPG?raw=true)
+</p>
 31. Pilih **Continue**.
+<p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/20.JPG?raw=true)
+</p>
 
 
 ### *Instalasi SSH Server*
