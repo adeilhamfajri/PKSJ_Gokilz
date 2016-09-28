@@ -121,49 +121,79 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 
 ### *Konfigurasi SSHGuard*
 1. Pasikanlah server telah diupdate paling baru, jika belum ketikkan perintah 'apt-get update'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/1.PNG?raw=true)
 2. Setelah itu untuk melakukan instalasi SSHGuard, dapat dilakukan dengan perintah 'apt-get install sshguard'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/2.PNG?raw=true)
 3. Tunggulah beberapa saat hingga proses instalasi selesai.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/3.PNG?raw=true)
 4. Lakukan konfigurasi SSHGuard (SSHGuard tidak memiliki file konfigurasi, sehingga harus menggunakan iptables untuk mengatur mekanisme pemblokiran.
 5. Masukkan perintah 'iptables -N sshguard'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/4.PNG?raw=true)
 6. Kemudian masukkan perintah 'iptables -A INPUT -j sshguard'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/5.PNG?raw=true)
 7. Untuk melakukan pemblokiran port (SSH, FTP, IMAP, POP dll) dapat dilakukan dengan memasukkan perintah 'iptables -A INPUT -m multiport -p tcp --destination-ports 21,22,110,143 -j sshguard'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/6.PNG?raw=true)
 8. Masukkan perintah 'iptables -F'.
 9. Masukkan perintah 'iptables -X'.
 10. Masukkan perintah 'iptables -P'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/7.PNG?raw=true)
 11. Masukkan juga perintah 'iptables -P INPUT ACCEPT'.
 12. Lalu masukkan 'iptables -P FORWARD ACCEPT'.
 13. Dan juga perintah 'iptables -P OUTPUT ACCEPT'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/8.PNG?raw=true)
 14. Dua perintah terakhir adalah 'iptables -N sshguard'.
 15. Dan perintah 'iptables -A INPUT -j sshguard'.
-16. SSHGuard berhasil terinstal ddalam server, untuk melakukan pengecekan status SSHGuard, masukkan 'service sshguard status'. Makan akan muncul status SSHGuard (di bawah ini SSHGuard sedang aktif).
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/9.PNG?raw=true)
+16. SSHGuard berhasil terinstal ddalam server, untuk melakukan pengecekan status SSHGuard, masukkan 'service sshguard status'. Maka akan muncul status SSHGuard (di bawah ini SSHGuard sedang aktif).
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/10.PNG?raw=true)
 
 ### *Konfigurasi SSH Server*
 1. Setelah di topik sebelumnya SSH Server telah terinstall di server, sekarang saatnya untuk melakukan konfigurasi pada SSH Server.
 2. Pertama-tama bukalah file konfigurasi dengan perintah 'nano /etc/ssh/sshd_config'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/1.PNG?raw=true)
 3. Maka akan tampak isi file sshd_config seperti di bawah ini.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/2.PNG?raw=true)
 4. Yang akan kita lakukan adalah melakukan sedikit konfigurasi pada bagian port agar port untuk ssh tidak 22 melainkan 354. Cara yang dapat dilakukan adalah mengcomment port 22 dan menambahkan port 354, seperti pada contoh.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/3.PNG?raw=true)
 5. Setelah port berubah, kita harus menjalankan ulang ssh server dengan perintah '/etc/init.d/ssh restart'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/4.PNG?raw=true)
 6. Untuk melakukan percobaan dapat kita lakukan dengan perintah 'ssh root@localhost'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/5.PNG?raw=true)
 7. Jika muncul report seperti di bawah ini, maka port ssh berhasil dialhkan.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/6.PNG?raw=true)
 8. Untuk dapat tersambung dapat dilakukan dengan memasukkan 'ssh root@localhost -p 354'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/7.PNG?raw=true)
 9. Dengan memasukkan perintah 'service ssh status', kita dapat melihat keadaan ssh yang ada pada server kita. Tanda 'Active (running)' menandakan bahwa ssh sedang berjalan.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSH%20Server/8.PNG?raw=true)
 
 ### *Medusa*
 1. Sebelum menggunakan Medusa, pastikan dahulu melakukan 'apt-get update'. Kemudian instal Medusa dengan perintah 'apt-get install medusa'. Ternyata Kali Linux juga telah menyediakan Medusa sebagai brute-force penetration tool.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/1.PNG?raw=true)
 2. Langkah selanjutnya adalah melakukan penetrasi ke Ubuntu Server dengan perintah 'medusa -h [IP_ADDRESS] -u [USERNAME] -P [FILE] -M ssh'. Contohnya seperti di bawah ini.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/2.PNG?raw=true)
 3. Hasil yang didapat adalah 'failed to connect', hal ini dikarenakan konfigurasi SSH Server telah kita ubah port defaulnya menjadi 354.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/3.PNG?raw=true)
 4. Sekarang kita kembalikan konfigurasi port menjadi 22 dan pastikan SSHGuard telah berjalan.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/4.PNG?raw=true)
 5. Masukkan perintah penetrasi seperti dibawah.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/5.PNG?raw=true)
 6. Hasil yang kita dapat adalah brute-force attack yang kita lakukan hanya berjalan beberapa iterasi sebelum kemudian SSHGuard pada server memblokir akses yang kita lakukan.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/6.PNG?raw=true)
 
 ### *THC-Hydra*
 1. Sekarang akan kita coba lakukan kembali penetrasi pada Ubuntu Server menggunakan THC-Hydra.
 2. Kita siapkan dahulu sebuah file yang berisi daftar password yang akan di brute-force, disini kami menamai filenya pass.txt.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/100.PNG?raw=true)
 3. Penetrasi dapat dilakukan dengan perintah 'hydra -l [username] -P [FILE] IP_DESTINATION ssh'. Contohnya seperti: 'hydra -l pksjserver -P pass.txt 10.151.43.177 ssh'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/1.PNG?raw=true)
 4. Koneksi ke Ubuntu Server di refused karena port ssh 22 (dafault) telah berganti menjadi 354.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/2.PNG?raw=true)
 5. Sekarang konfigurasi port telah kita kembalikan menjadi 22 (default). Kita coba lakukan lagi penetrasi. Hasilnya adalah koneksi Timeout (koneksi ke server memakan waktu yang terlalu lama karena IP kita diblok oleh server).
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/3.PNG?raw=true)
 6. Sekarang mari kita coba lihat log file di sisi Ubuntu Server dengan memasukkan perintah 'nano /var/log/auth.log'.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/4.PNG?raw=true)
 7. Berikut ini salah satu baris yang menunjukkan bahwa IP Kali Linux sedang terblokir dalam waktu 945 detik.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/5.PNG?raw=true)
 
 ## Kesimpulan dan Saran
 
