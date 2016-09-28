@@ -178,7 +178,7 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 5. Masukkan perintah penetrasi seperti dibawah.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/5.PNG?raw=true)
 6. Hasil yang kita dapat adalah brute-force attack yang kita lakukan hanya berjalan beberapa iterasi sebelum kemudian SSHGuard pada server memblokir akses yang kita lakukan.
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/6%20pertama.PNG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/6%20kedua.PNG?raw=true)
 
 ### *THC-Hydra*
 1. Sekarang akan kita coba lakukan kembali penetrasi pada Ubuntu Server menggunakan THC-Hydra.
