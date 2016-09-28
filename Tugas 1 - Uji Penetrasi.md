@@ -9,7 +9,7 @@ Dalam dunia komunikasi data dan perkembangan teknologi informasi yang senantiasa
 
 Salah satu metode pengamanan sistem yang umum diketahui banyak orang adalah password. Tanpa disadari password mempunyai peranan penting dalam mengamankan informasi-informasi yang sifatnya pribadi (confidential). Tetapi banyak dari para pengguna password yang membuat password secara sembarangan tanpa mengetahui kebijakan pengamanan (password policy) dan bagaimana membuat password yang kuat (strong password). Mereka tidak sadar dengan bahayanya para ‘penyerang’ (attacker) yang dapat mencuri atau mengacak-acak informasi tersebut.
 
-Oleh karena itu, disini kami akan mencoba untuk melakukan penetrasi ke server menggunakan teknik brute force untuk mendapatkan password. Dan kami juga mencontohkan couter measure dari serangan brute force tersebut.
+Oleh karena itu, disini kami akan mencoba untuk melakukan penetrasi ke server menggunakan teknik brute force untuk mendapatkan password. Dan kami juga mencontohkan counter measure dari serangan brute force tersebut.
 
 ## Dasar Teori
 
@@ -231,7 +231,7 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/1.PNG?raw=true)
 2. Langkah selanjutnya adalah melakukan penetrasi ke Ubuntu Server dengan perintah 'medusa -h [IP_ADDRESS] -u [USERNAME] -P [FILE] -M ssh'. Contohnya seperti di bawah ini.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/2.PNG?raw=true)
-3. Hasil yang didapat adalah `failed to connect`, hal ini dikarenakan konfigurasi SSH Server telah kita ubah port defaulnya menjadi 354.
+3. Hasil yang didapat adalah `failed to connect`, hal ini dikarenakan konfigurasi SSH Server telah kita ubah port defaultnya menjadi 354.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/3.PNG?raw=true)
 4. Sekarang kita kembalikan konfigurasi port menjadi 22 dan pastikan SSHGuard telah berjalan.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/4.PNG?raw=true)
