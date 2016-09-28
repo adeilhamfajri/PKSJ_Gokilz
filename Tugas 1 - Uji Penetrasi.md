@@ -138,18 +138,6 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 20. Pilih ** Continue **
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/20.JPG?raw=true)
 
-### *THC-Hydra*
-1. Pastikan anda telah masuk ke dalam Kali Linux
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/21.JPG?raw=true)
-2. Lakukan konfigurasi IP lokal, kemudian lakukan ping untuk mengecek jaringan
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/22.JPG?raw=true)
-3. Sediakan sebuah file, `/root/password.txt` yang berisi daftar password
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/23.JPG?raw=true)
-4. Lakukan penetrasi dengan sytax berikut ; `hydra -l pksjserver -P /root/password.txt -t 8 -vV 192.168.1.108 ssh` . ** pksj ** merupakan username target, kemudian diikuti ip target.
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/24.JPG?raw=true)
-5. Proses penetrasi dengan hydra *BERHASIL**
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/25.JPG?raw=true)
-
 
 ### *Instalasi SSH Server*
 1. Pastikan Anda telah masuk ke dalam Ubuntu Server
@@ -166,9 +154,28 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 7. Jika Anda menginginkan SSH Server berjalan otomatis setelah reboot, masukkan perintah 'sudo systemctl enable ssh'.
 8. SSH Server selesai di install.
 
-### *Medusa*
 
 ### *THC-Hydra*
+1. Pastikan anda telah masuk ke dalam Kali Linux
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/21.JPG?raw=true)
+2. Lakukan konfigurasi IP lokal, kemudian lakukan ping untuk mengecek jaringan
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/22.JPG?raw=true)
+3. Sediakan sebuah file, `/root/password.txt` yang berisi daftar password
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/23.JPG?raw=true)
+4. Lakukan penetrasi dengan sytax berikut ; `hydra -l pksjserver -P /root/password.txt -t 8 -vV 192.168.1.108 ssh` . ** pksj ** merupakan username target, kemudian diikuti ip target.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/24.JPG?raw=true)
+5. Proses penetrasi dengan hydra *BERHASIL**
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/25.JPG?raw=true)
+
+### *Medusa*
+1. Pastikan anda telah mendownload aplikasi medusa di Kali Linux, jika belum gunakan syntax berikut : `wget http://www.foobus.net/jmk/tools/medusa-2.0.tar.gz`
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%201/26.JPG?raw=true)
+2. Extract file tersebut, kemudian lakukan instalasi
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%201/27.JPG?raw=true)
+3. Lakukan penetrasi dengan syntax berikut `medusa -h 192.168.1.108 -u pksjserver -P /root/password.txt -M ssh` , kemudian amati bahwa penetrasi tersebut **BERHASIL**
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%201/28.JPG?raw=true)
+
+
 
 ## Uji Penetrasi 2
 
