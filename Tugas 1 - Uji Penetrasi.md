@@ -121,7 +121,7 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 
 ### *Konfigurasi SSHGuard*
 1. Pasikanlah server telah diupdate paling baru, jika belum ketikkan perintah 'apt-get update'.
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/1.PNG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/1.PNG?raw=true)
 2. Setelah itu untuk melakukan instalasi SSHGuard, dapat dilakukan dengan perintah 'apt-get install sshguard'.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Konfigurasi%20SSHGuard/2.PNG?raw=true)
 3. Tunggulah beberapa saat hingga proses instalasi selesai.
