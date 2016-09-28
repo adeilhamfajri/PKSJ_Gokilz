@@ -97,50 +97,73 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/29.PNG?raw=true)
 
 ### *Instalasi OS Penetrasi (Kali Linux)*
-12. Pilih bahasa yang anda inginkan
+1. Untuk instal Kali Linux, pertama-tama berikan nama untuk virtual machine, pilih tipe yaitu `Linux` dan pilihlah versi sesuai file .ISO Anda yaitu `32-bit` atau `64-bit`.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/1.PNG?raw=true)
+2. Alokasikan RAM sesuai kemampuan komputer Anda.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/2.PNG?raw=true)
+3. Pilih `Buat hard disk virtual sekarang`.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/3.PNG?raw=true)
+4. Pilih `VDI (VirtualBox Disk Image)`.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/4.PNG?raw=true)
+5. Pilihlah `Dialokasikan secara dinamik`.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/5.PNG?raw=true)
+6. Alokasikan besarnya hard disk untuk mesin virtual, di beberapa komputer 8GB akan mengalami masalah saat proses instalasi, jika masalah terjadi berikan alokasi setidaknya 16GB.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/6.PNG?raw=true)
+7. Masuklah ke `Pengaturan` dan pada menu `Umum` lakukan settingan seperti di bawah ini.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/7.PNG?raw=true)
+8. Pada menu `Sistem`, lakukan pengaturan seperti pada gambar.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/8.PNG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/9.PNG?raw=true)
+9. Pada menu `Tampilan`, sesuaikan pengaturan seperti pada gambar.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/10.PNG?raw=true)
+10. Pada menu `Jaringan`, lakukan pengaturan seperti pada gambar.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/11.PNG?raw=true)
+11. Jika sudah jalankan Kali Linux dan saat muncul pilihan, pilihlah `Install`.
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Kali%20Linux%20Awal/12.PNG?raw=true)
+12. Pilih bahasa yang anda inginkan.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/1.JPG?raw=true)
-13. Pilih lokasi
+13. Pilih lokasi.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/2.JPG?raw=true)
-14. Konfigurasi inputan keyboard
+14. Konfigurasi inputan keyboard.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/3.JPG?raw=true)
-15. `Loading addtional components`
+15. `Loading addtional components`.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/4.JPG?raw=true)
-16. Inputkan nama hostname
+16. Inputkan nama hostname.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/5.JPG?raw=true)
-17. Inputkan nama domain
+17. Inputkan nama domain.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/6.JPG?raw=true)
-18. Konfigurasi username dan password
+18. Konfigurasi username dan password.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/7.JPG?raw=true)
-19. Ulangi input username dan password
+19. Ulangi input username dan password.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/8.JPG?raw=true)
-20. Konfigurasi waktu 
+20. Konfigurasi waktu.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/9.JPG?raw=true)
-21. Pilih `Guide - use entire disk`
+21. Pilih `Guide - use entire disk`.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/10.JPG?raw=true)
-22. Pilih partisi
+22. Pilih partisi.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/11.JPG?raw=true)
-23. Pada `Partition shceme`, pilih **All File in one partition**
+23. Pada `Partition shceme`, pilih **All File in one partition**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/12.JPG?raw=true)
-24. Pilih **Finish partitioning and write changes to disk**
+24. Pilih **Finish partitioning and write changes to disk**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/13.JPG?raw=true)
-25. Pilih **YES**
+25. Pilih **YES**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/14.JPG?raw=true)
-26. Tunggu sejenak proses `Partitions Formating`
+26. Tunggu sejenak proses `Partitions Formating`.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/15.JPG?raw=true)
-27. Pilih **YES**
+27. Pilih **YES**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/16.JPG?raw=true)
-28. Konfigurasi proxy 
+28. Konfigurasi proxy.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/17.JPG?raw=true)
-29. Pilih **YES**
+29. Pilih **YES**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/18.JPG?raw=true)
-30. Untuk **device**, maka pilih yang sudah tersedia
+30. Untuk **device**, maka pilih yang sudah tersedia.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/19.JPG?raw=true)
-31. Pilih **Continue**
+31. Pilih **Continue**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/20.JPG?raw=true)
 
 
 ### *Instalasi SSH Server*
-1. Pastikan Anda telah masuk ke dalam Ubuntu Server
+1. Pastikan Anda telah masuk ke dalam Ubuntu Server.
 2. Masukkan perintah untuk update OS terlebih dahulu dengan mengetikkan `sudo apt-get update`.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/SSH%20Server/1.PNG?raw=true)
 3. Untuk melakukan install SSH Server tuliskan perintah `sudo apt-get install ssh`.
@@ -156,23 +179,23 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 
 
 ### *THC-Hydra*
-1. Pastikan anda telah masuk ke dalam Kali Linux
+1. Pastikan anda telah masuk ke dalam Kali Linux.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/21.JPG?raw=true)
-2. Lakukan konfigurasi IP lokal, kemudian lakukan ping untuk mengecek jaringan
+2. Lakukan konfigurasi IP lokal, kemudian lakukan ping untuk mengecek jaringan.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/22.JPG?raw=true)
-3. Sediakan sebuah file, `/root/password.txt` yang berisi daftar password
+3. Sediakan sebuah file, `/root/password.txt` yang berisi daftar password.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/23.JPG?raw=true)
 4. Lakukan penetrasi dengan sytax berikut ; `hydra -l pksjserver -P /root/password.txt -t 8 -vV 192.168.1.108 ssh` . **pksj** merupakan username target, kemudian diikuti ip target.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/24.JPG?raw=true)
-5. Proses penetrasi dengan hydra **BERHASIL**
+5. Proses penetrasi dengan hydra **BERHASIL**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%201/25.JPG?raw=true)
 
 ### *Medusa*
-1. Pastikan anda telah mendownload aplikasi medusa di Kali Linux, jika belum gunakan syntax berikut : `wget http://www.foobus.net/jmk/tools/medusa-2.0.tar.gz`
+1. Pastikan anda telah mendownload aplikasi medusa di Kali Linux, jika belum gunakan syntax berikut : `wget http://www.foobus.net/jmk/tools/medusa-2.0.tar.gz`.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%201/26.JPG?raw=true)
-2. Extract file tersebut, kemudian lakukan instalasi
+2. Extract file tersebut, kemudian lakukan instalasi.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%201/27.JPG?raw=true)
-3. Lakukan penetrasi dengan syntax berikut `medusa -h 192.168.1.108 -u pksjserver -P /root/password.txt -M ssh` , kemudian amati bahwa penetrasi tersebut **BERHASIL**
+3. Lakukan penetrasi dengan syntax berikut `medusa -h 192.168.1.108 -u pksjserver -P /root/password.txt -M ssh` , kemudian amati bahwa penetrasi tersebut **BERHASIL**.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%201/28.JPG?raw=true)
 
 
