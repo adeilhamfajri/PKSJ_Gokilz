@@ -183,7 +183,7 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ### *THC-Hydra*
 1. Sekarang akan kita coba lakukan kembali penetrasi pada Ubuntu Server menggunakan THC-Hydra.
 2. Kita siapkan dahulu sebuah file yang berisi daftar password yang akan di brute-force, disini kami menamai filenya pass.txt.
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/100.PNG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Hydra%20-%20Penetrasi%202/100.PNG?raw=true)
 3. Penetrasi dapat dilakukan dengan perintah 'hydra -l [username] -P [FILE] IP_DESTINATION ssh'. Contohnya seperti: 'hydra -l pksjserver -P pass.txt 10.151.43.177 ssh'.
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Medusa%20-%20Penetrasi%202/1.PNG?raw=true)
 4. Koneksi ke Ubuntu Server di refused karena port ssh 22 (dafault) telah berganti menjadi 354.
