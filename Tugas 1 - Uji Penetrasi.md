@@ -97,45 +97,45 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/29.PNG?raw=true)
 
 ### *Instalasi OS Penetrasi (Kali Linux)*
-1. Pilih bahasa yang anda inginkan
+12. Pilih bahasa yang anda inginkan
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/1.JPG?raw=true)
-2. Pilih lokasi
+13. Pilih lokasi
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/2.JPG?raw=true)
-3. Konfigurasi inputan keyboard
+14. Konfigurasi inputan keyboard
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/3.JPG?raw=true)
-4. `Loading addtional components`
+15. `Loading addtional components`
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/4.JPG?raw=true)
-5. Inputkan nama hostname
+16. Inputkan nama hostname
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/5.JPG?raw=true)
-6. Inputkan nama domain
+17. Inputkan nama domain
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/6.JPG?raw=true)
-7. Konfigurasi username dan password
+18. Konfigurasi username dan password
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/7.JPG?raw=true)
-8. Ulangi input username dan password
+19. Ulangi input username dan password
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/8.JPG?raw=true)
-9. Konfigurasi waktu 
+20. Konfigurasi waktu 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/9.JPG?raw=true)
-10. Pilih `Guide - use entire disk`
+21. Pilih `Guide - use entire disk`
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/10.JPG?raw=true)
-11. Pilih partisi
+22. Pilih partisi
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/11.JPG?raw=true)
-12. Pada `Partition shceme`, pilih **All File in one partition**
+23. Pada `Partition shceme`, pilih **All File in one partition**
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/12.JPG?raw=true)
-13. Pilih **Finish partitioning and write changes to disk**
+24. Pilih **Finish partitioning and write changes to disk**
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/13.JPG?raw=true)
-14. Pilih **YES**
+25. Pilih **YES**
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/14.JPG?raw=true)
-15. Tunggu sejenak proses `Partitions Formating`
+26. Tunggu sejenak proses `Partitions Formating`
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/15.JPG?raw=true)
-16. Pilih **YES**
+27. Pilih **YES**
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/16.JPG?raw=true)
-17. Konfigurasi proxy 
+28. Konfigurasi proxy 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/17.JPG?raw=true)
-18. Pilih **YES**
+29. Pilih **YES**
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/18.JPG?raw=true)
-19. Untuk **device**, maka pilih yang sudah tersedia
+30. Untuk **device**, maka pilih yang sudah tersedia
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/19.JPG?raw=true)
-20. Pilih **Continue**
+31. Pilih **Continue**
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/20.JPG?raw=true)
 
 
