@@ -97,6 +97,9 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/29.PNG?raw=true)
 
 ### *Instalasi OS Penetrasi (Kali Linux)*
+1. Pilih bahasa yang anda inginkan
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Instalasi%20Kali%20Linux/1.JPG?raw=true)
+
 
 ### *Instalasi SSH Server*
 1. Pastikan Anda telah masuk ke dalam Ubuntu Server
