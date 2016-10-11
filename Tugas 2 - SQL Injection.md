@@ -17,6 +17,7 @@ Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testi
 ### *Wordpress 4.6.1*
 
 ### *Plugins*
+*1. League Manager 3.9.11 (3.9.11)*
 
 
 ## Uji Penetrasi 1
