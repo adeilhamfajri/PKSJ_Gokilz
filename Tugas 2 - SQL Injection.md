@@ -54,7 +54,7 @@ Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testi
 
 ## Uji Penetrasi (SQL Injection)
 
-### 1. Tools: WPscan,sqlmap ||| Plugins: League Manager 3.9.1.1 (3.9.11)
+### 1. Tools: WPscan,sqlmap <--> Plugins: League Manager 3.9.1.1 (3.9.11)
 
 ---
 
