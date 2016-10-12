@@ -40,44 +40,146 @@ Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testi
 
 ### *Instalasi Wordpress 4.6.1*
 1. Sebelum melakukan instalasi Wordpress, hal yang harus kita lakukan adalah melakukan beberapa langkah instal LAMP stack.
-<p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG?raw=true)
-</p>
 2. Pertama-tama kita akan mengisntal Apache Web Server. Masukkan perintah `sudo apt-get update`, kemudian ketik perintah `sudo apt-get install apache2 apache2-utils`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/1.PNG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/2.PNG?raw=true)
+</p>
 3. Tunggu hingga proses selesai dijalankan.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/3.PNG?raw=true)
+</p>
 4. Untuk mengaktifkan Apache dapat kita lakukan dengan perintah `sudo systemctl enable apache2`, lalu selanjutnya `sudo systemctl start apache2`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/4.PNG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/5.PNG?raw=true)
+</p>
 5. Lakukan pengecekan Apache2 dengan memasukkan `service apache2 status`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/6.PNG?raw=true)
+</p>
 6. Jika Anda menggunakan Ubuntu Server dan ingin menginstal browser sedserhana, Anda dapat menginstal Lynx dengan cara `sudo apt-get install lynx`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/6-1.PNG?raw=true)
+</p>
 7. Buka Apache dengan Lynx melalui perintah `lynx localhost`. Maka akan muncul halaman seperti di bawah.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/6-2.PNG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/6-3.PNG?raw=true)
+</p>
 8. Langkah selanjutnya yang harus dilakukan adalah dengan menginstal MySQL Database.
 9. Ketikkan perintah `sudo apt-get install mysql-client mysql-server`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/7.PNG?raw=true)
+</p>
 10. Tunggu beberapa saat hingga instalasi selesai.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/8.PNG?raw=true)
+</p>
 11. Saat muncul tampilan seperti di bawah, masukkan password untuk root dari MySQL database.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/9.PNG?raw=true)
+</p>
 12. Masukkan ulang password.
-13. Untuk memperkuat keamanan database server deployment dapa memasukkan perintah `sudo mysql_secure_installation`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/10.PNG?raw=true)
+</p>
+13. Untuk memperkuat keamanan database server deployment dapat memasukkan perintah `sudo mysql_secure_installation`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/11.PNG?raw=true)
+</p>
 14 Untuk melihat status MySQL, dapat dilakukan dengan perintah `service mysql status`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/12.PNG?raw=true)
+</p>
 15. Langkah selanjutnya adalah install PHP dan modul-modulnya. Di contoh ini kami menginstall PHP 7.0
 16. Masukka perintah `sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/13.PNG?raw=true)
+</p>
 17. Tunggulah hingga proses instalasi selesai dijalankan.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/14.PNG?raw=true)
+</p>
 18. Buatlah file `info.php` dalam direktori `/var/www/html`.
 19. Isilah data info.php seperti di bawah ini.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/16.PNG?raw=true)
+</p>
 20. Sekarang buka info.php dengan menggunakan Lynx, masukkan perintah `lynx localhost/info.php`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/17.PNG?raw=true)
+</p>
 21. Maka akan muncul seperti di bawah ini.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/18.PNG?raw=true)
+</p>
 22. Sekarang kita perlu mengunduh Wordpress dengan cara `sudo wget -c http://wordpress.org/latest.tar.gz`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/19.PNG?raw=true)
+</p>
 23. Kemudian ekstrak file ` sudo tar -xzvf latest.tar.gz`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/20.PNG?raw=true)
+</p>
 24. Pindahkan semua Wordpress file ke dalam apache root default direktori, `sudo rsync -av wordpress/* /var/www/html/`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/21.PNG?raw=true)
+</p>
 25. Sekarang ubah permission dari direktori website untuk memberikan kepemilikan Wordpress pada web server, `sudo chown -R www-data:www-data /var/www/html/`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/22.PNG?raw=true)
+</p>
 26. Lalu masukkan perintah `sudo chmod -R 755 /var/www/html/`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/23.PNG?raw=true)
+</p>
 27. Sekarang kita akan membuat Database Wordpress, masukkan `mysql -u root -p`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/24.PNG?raw=true)
+</p>
 28. Saat memasuki mysql shell commands, buatlah konfigurasi database yang diperlukan seperti pada contoh d bawah ini.
 29. `CREATE DATABASE [nama_database];`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/25.PNG?raw=true)
+</p>
 30. `GRANT ALL PRIVILEGES ON [nama_database].* TO 'nama_user'@'localhost' IDENTIFIED BY 'password';`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/26.PNG?raw=true)
+</p>
 31. `FLUSH PRIVILEGES;`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/27.PNG?raw=true)
+</p>
 32. `EXIT`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/28.PNG?raw=true)
+</p>
 33. Sekarang masuklah ke direktori */var/www/html/* gantilah nama *wp-config-sample.php* menjadi *wp-config.php*.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/29.PNG?raw=true)
+</p>
 34. Buka file *wp-config.php* dan ubah pengaturan sesuai yang telah dibuat sebelumnya.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/30.PNG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/31.PNG?raw=true)
+</p>
 35. Sekarang restart apache2 dan mysql.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/32.PNG?raw=true)
+</p>
 36. Cobalah buka website dengan browser standard di Windows (pastikan sefver tersambung ke jaringan melalui bridge).
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/33.PNG?raw=true)
+</p>
 
 ### *Instalasi League Manager 3.9.1.1 (3.9.11)*
 
