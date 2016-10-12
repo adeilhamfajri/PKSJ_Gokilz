@@ -243,7 +243,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/1.PNG?raw=true)
 </p>
-2. Unduh plugin Survey and Poll versi 1.1 pada URL berikut.
+2. Unduh plugin Survey and Poll versi 1.1 pada URL berikut https://downloads.wordpress.org/plugin/wp-survey-and-poll.1.1.zip.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/2.PNG?raw=true)
 </p>
