@@ -297,6 +297,19 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 ## Uji Penetrasi (SQL Injection)
 
 ### 1. Tools: WPscan,sqlmap <--> Plugins: League Manager 3.9.1.1 (3.9.11)
+1. Kita akan melakukan installasi tools WPscan
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/1.PNG?raw=true)
+</p>
+2. Setelah terinstall, maka kita lakukan scanning plugin pada objek penetrasi menggunakan wpscan
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/2.PNG?raw=true)
+</p>
+3. Dari hasil scanning plugin, diketahui bahwa target penetrasi menggunakan plugin LeagueManager 3.9.1.1
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/3.PNG?raw=true)
+</p>
+4. 
 
 ### 2. Tools: WPscan,jsql <--> Plugins: Survey and Poll 1.1
 
