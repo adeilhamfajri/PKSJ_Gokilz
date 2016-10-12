@@ -7,11 +7,11 @@
 ---
 
 ## Pendahuluan
-Database merupakan tempat penyimpanan data penting yang dibutuhkan untuk menjamin kelancaran aktivitas suatu aplikasi web. Data penting dan vital yang tersimpan pada database seringkali menjadi target empuk bagi para penyerang.
+Database merupakan tempat penyimpanan data penting yang dibutuhkan untuk menjamin kelancaran aktivitas suatu website. Data penting dan vital yang tersimpan pada database seringkali menjadi target empuk bagi para penyerang.
 
-Salah satu teknik yang umum digunakan untuk menyerang database sebuah aplikasi web adalah SQL injection atau dikenal juga dengan SQL insertion. SQL injection merupakan sebuah teknik yang digunakan untuk mengeksploitasi celah keamanan pada aplikasi web dengan cara mengirim malicious SQL query ke database server untuk mengetahui informasi tentang struktur database aplikasi web yang dieksploitasi, yang selanjutnya bisa digunakan untuk mendapatkan data dari database. Setelah data berhasil didapat, penyerang bisa dengan mudah memodifikasi atau bahkan menghapus isi database.
+Salah satu teknik yang umum digunakan untuk menyerang database sebuah website adalah SQL injection atau dikenal juga dengan SQL insertion. SQL injection merupakan sebuah teknik yang digunakan untuk mengeksploitasi celah keamanan pada website dengan cara mengirim malicious SQL query ke database server untuk mengetahui informasi tentang struktur database dari website yang dieksploitasi, yang selanjutnya bisa digunakan untuk mendapatkan data dari database. Setelah data berhasil didapat, penyerang bisa dengan mudah memodifikasi atau bahkan menghapus isi database.
 
-Pada kesempatan ini, kami akan mencoba untuk melakukan serangan SQL injection ke sebuah aplikasi web. Kami akan menyerang aplikasi web yang menggunakan CMS (Content Management System) Wordpress dengan cara menyerang plugin-plugin Wordpress yang vulnerable terhadap serangan SQL injection.
+Pada kesempatan ini, kami akan mencoba untuk melakukan serangan SQL injection ke sebuah aplikasi web. Kami akan menyerang website yang menggunakan CMS (Content Management System) Wordpress dengan cara menyerang plugin-plugin WordPress yang vulnerable terhadap serangan SQL injection.
 
 ---
 
@@ -23,7 +23,8 @@ Ubuntu Server adalah salah satu varian dari distro Ubuntu yang telah didesain kh
 ### *Kali Linux*
 Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testing dan audit keamanan. Kali Linux tersedia dalam versi 32 bit, 64 bit, dan ARM, serta sejumlah build khusus untuk berbagai macam platform hardware populer lainnya.
 
-### *Wordpress 4.6.1*
+### *WordPress 4.6.1*
+WordPress adalah sebuah aplikasi open source yang sangat populer digunakan sebagai blog engine. WordPress dibangun dengan bahasa pemrograman PHP dan database MySQL. Selain sebagai blog, WordPress juga mulai digunakan sebagai sebuah CMS (Content Management System) karena kemampuannya untuk dimodifikasi dan disesuaikan dengan kebutuhan penggunanya. WordPress adalah penerus resmi dari b2/cafelog yang dikembangkan oleh Michel Valdrighi. WordPress saat ini menjadi platform CMS bagi beberapa situs web ternama seperti CNN, Reuters, The New York Times, TechCrunch, dan lainnya. Versi terbaru WordPress adalah versi 4.6.1 (dirilis pada 7 September 2016).
 
 ### *Plugins*
 *1. League Manager 3.9.11 (3.9.11)*
@@ -43,8 +44,8 @@ Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testi
 
 ## Penjelasan Instalasi
 
-### *Instalasi Wordpress 4.6.1*
-1. Sebelum melakukan instalasi Wordpress, hal yang harus kita lakukan adalah melakukan beberapa langkah instal LAMP stack.
+### *Instalasi WordPress 4.6.1*
+1. Sebelum melakukan instalasi WordPress, hal yang harus kita lakukan adalah melakukan beberapa langkah instal LAMP stack.
 2. Pertama-tama kita akan mengisntal Apache Web Server. Masukkan perintah `sudo apt-get update`, kemudian ketik perintah `sudo apt-get install apache2 apache2-utils`.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Wordpress/1.PNG?raw=true)
@@ -203,9 +204,9 @@ Kali Linux adalah salah satu distro Linux tingkat lanjut untuk Penetration Testi
 ## Kesimpulan dan Saran
 
 ### *Kesimpulan*
-- Banyak plugin pada wordpress yang dapat dijadikan sarana/jalur untuk meretas wordpress menggunakan metode SQL Injection.
+- Banyak plugin pada wordpress yang dapat dijadikan sarana/jalur untuk meretas WordPress menggunakan metode SQL Injection.
 
 ### *Saran*
 - Untuk melakukan penetrasi lebih disarankan menggunakan Kali Linux, karena di dalamnya sudah disertakan tool-tool untuk melakukan penetrasi.
 - Pembuatan password untuk sebuah akun harus lebih diperhatikan, yaitu dengan menggunakan kombinasi dari karakter, angka, simbol, dan besar-kecil. Hal ini diperlukan untuk menghindari brute-force attack.
-- Untuk menghindari serangan pada sistem lakukanlah update berkala pada sistem yang dimiliki baik itu PHP, MySQL, Apache, Wordpress dan Plugin pada Wordpress. Update terbaru pada sistem memungkinkan diperbaikinya suatu celah yang sebelumnya ada pada versi lama.
+- Untuk menghindari serangan pada sistem lakukanlah update berkala pada sistem yang dimiliki baik itu PHP, MySQL, Apache, WordPress dan Plugin pada Wordpress. Update terbaru pada sistem memungkinkan diperbaikinya suatu celah yang sebelumnya ada pada versi lama.
