@@ -7,7 +7,7 @@
 ---
 
 ## Pendahuluan
-Database merupakan tempat penyimpanan data penting yang dibutuhkan untuk menjamin kelancaran aktivitas suatu website. Data penting dan vital yang tersimpan pada database seringkali menjadi target empuk bagi para penyerang.
+Database merupakan tempat penyimpanan data penting yang dibutuhkan untuk menjamin kelancaran aktivitas suatu aplikasi web. Data penting dan vital yang tersimpan pada database seringkali menjadi target empuk bagi para penyerang.
 
 Salah satu teknik yang umum digunakan untuk menyerang database sebuah aplikasi web adalah SQL injection atau dikenal juga dengan SQL insertion. SQL injection merupakan sebuah teknik yang digunakan untuk mengeksploitasi celah keamanan pada aplikasi web dengan cara mengirim malicious SQL query ke database server untuk mengetahui informasi tentang struktur database aplikasi web yang dieksploitasi, yang selanjutnya bisa digunakan untuk mendapatkan data dari database. Setelah data berhasil didapat, penyerang bisa dengan mudah memodifikasi atau bahkan menghapus isi database.
 
