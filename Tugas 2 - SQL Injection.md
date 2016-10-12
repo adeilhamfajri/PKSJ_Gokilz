@@ -218,7 +218,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/5.PNG?raw=true)
 </p>
-6. Masuklah ke menu `Plugins` di sebelah kanan.
+6. Masuklah ke menu `Plugins` di sebelah kiri.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/6.PNG?raw=true)
 </p>
@@ -233,12 +233,36 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/9.PNG?raw=true)
 </p>
-10. Jika sudah muncul seperti di bawah, maka Plugin baru telah aktif.
+10. Jika sudah muncul tampilan seperti di bawah, maka Plugin baru telah aktif.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/10.PNG?raw=true)
 </p>
 
-### *Instalasi belum*
+### *Instalasi Survey and Poll 1.1*
+1. Masuk ke halaman admin, lalu masuklah ke menu `Plugins` di sebelah kiri.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/1.PNG?raw=true)
+</p>
+2. Unduh plugin Survey and Poll versi 1.1 pada URL berikut.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/2.PNG?raw=true)
+</p>
+3. Tambahkan plugin dengan mengklik tombol `Upload Plugin`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/3.PNG?raw=true)
+</p>
+4. Unggah plugin Survey and Poll yang telah diunduh tadi dengan mengklik tombol `Browse...`. Lalu setelah file berhasil diunggah, klik tombol `Install Now` untuk memulai instalasi.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/4.PNG?raw=true)
+</p>
+5. Setelah plugin berhasil di-install, klik tombol `Activate Plugin` untuk mengaktifkan plugin Survey and Poll.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/5.PNG?raw=true)
+</p>
+6. Jika sudah muncul tampilan seperti di bawah, maka Plugin baru telah aktif.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/6.PNG?raw=true)
+</p>
 
 ### *Instalasi belum juga*
 
