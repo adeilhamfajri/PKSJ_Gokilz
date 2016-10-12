@@ -298,12 +298,16 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 
 ### 1. Tools: WPscan,sqlmap <--> Plugins: League Manager 3.9.1.1 (3.9.11)
 
+### 2. Tools: WPscan,jsql <--> Plugins: Survey and Poll 1.1
+
+### 3. Tools: WPscan,sqlmap <--> Plugins: CP Reservation Calendar 1.1.6
+
 ---
 
 ## Kesimpulan dan Saran
 
 ### *Kesimpulan*
-- Banyak plugin pada wordpress yang dapat dijadikan sarana/jalur untuk meretas WordPress menggunakan metode SQL Injection.
+- Banyak plugin pada WordPress yang dapat dijadikan sarana/jalur untuk meretas WordPress menggunakan metode SQL Injection.
 
 ### *Saran*
 - Untuk melakukan penetrasi lebih disarankan menggunakan Kali Linux, karena di dalamnya sudah disertakan tool-tool untuk melakukan penetrasi.
