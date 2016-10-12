@@ -28,21 +28,26 @@ WordPress adalah sebuah aplikasi open source yang sangat populer digunakan sebag
 
 ### *Plugins*
 *1. League Manager 3.9.11 (3.9.11)*
+
 Plugin ini didesain untuk manajemen informasi berbagai liga olahraga dunia. Fitur-fitur yang tersedia meliputi menambahkan tim dan pertandingan favorit, klasemen liga pilihan, statistik pertandingan yang dinamis, dan juga menyediakan berbagai macam widget untuk digunakan. Versi yang digunakan adalah versi 3.9.1.1. Versi tersebut telah terbukti vulnerable terhadap serangan SQL injection. (Sumber: https://www.exploit-db.com/exploits/37182/)
 
 *2. Survey and Poll 1.1*
+
 Plugin Survey and Poll menawarkan solusi unik untuk mendapatkan feedback pengunjung WordPress. Survey bisa dengan mudah dikustomisasi sesuai dengan keinginan. Lalu, informasi yang didapat akan ditampilkan dengan grafik yang impresif. Versi yang telah terbukti vulnerable adalah versi 1.1. (Sumber: https://www.exploit-db.com/exploits/36054/)
 
 *3. -*
 
 ### *Tools*
 *1. sqlmap*
+
 sqlmap merupakan sebuah open source tools yang mendeteksi dan melakukan exploit pada bug SQL injection pada suatu website secara otomatis. Dengan melakukan serangan SQL injection seorang penyerang dapat mengambil alih serta memanipulasi sebuah database di dalam sebuah server.
 
-*2. WPscan*
+*2. WPScan*
+
 WPScan adalah vulnerability scanner yang memeriksa keamanan WordPress menggunakan metode "black box". WPScan dikembangkan dengan bahasa pemrograman ruby. Fitur utamanya adalah username discovery, pencacahan versi WordPress, identifikasi vulnerability, dan pencacahan versi plugin.
 
-*3. jsql*
+*3. jSQL*
+
 jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database dari server dan mengeksploitasi database. jSQL tersedia untuk Windows, Linux, OS X, dan Solaris.
 
 ---
