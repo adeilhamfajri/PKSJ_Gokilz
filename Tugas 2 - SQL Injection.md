@@ -35,7 +35,9 @@ Plugin ini didesain untuk manajemen informasi berbagai liga olahraga dunia. Fitu
 
 Plugin Survey and Poll menawarkan solusi unik untuk mendapatkan feedback pengunjung WordPress. Survey bisa dengan mudah dikustomisasi sesuai dengan keinginan. Lalu, informasi yang didapat akan ditampilkan dengan grafik yang impresif. Versi yang telah terbukti vulnerable adalah versi 1.1. (Sumber: https://www.exploit-db.com/exploits/36054/)
 
-*3. -*
+*3. CP Reservation Calendar 1.1.6*
+
+CP Reservation Calendar adalah sebuah booking calendar untuk melakukan reservasi. Fitur utamanya adalah memilih tanggal, booking form yang terintegrasi dengan pilihan pembayaran, notifikasi via email, dan pengaturan yang sederhana. Versi yang vulnerable terhadap serangan SQL injection adalah versi 1.1.6. (Sumber: https://www.exploit-db.com/exploits/38187/)
 
 ### *Tools*
 *1. sqlmap*
@@ -243,7 +245,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/1.PNG?raw=true)
 </p>
-2. Unduh plugin Survey and Poll versi 1.1 pada URL berikut https://downloads.wordpress.org/plugin/wp-survey-and-poll.1.1.zip.
+2. Unduh plugin Survey and Poll versi 1.1 pada link berikut https://downloads.wordpress.org/plugin/wp-survey-and-poll.1.1.zip.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/2.PNG?raw=true)
 </p>
@@ -264,7 +266,31 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/6.PNG?raw=true)
 </p>
 
-### *Instalasi belum juga*
+### *Instalasi CP Reservation Calendar 1.1.6*
+1. Unduh file plugin CP Reservation Calendar pada link berikut https://downloads.wordpress.org/plugin/cp-reservation-calendar.1.1.6.zip.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/1.PNG?raw=true)
+</p>
+2. Lalu, masuk ke halaman admin dan klik tombol `Add New` pada tab `Plugins`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/2.PNG?raw=true)
+</p>
+3. Tambahkan plugin dengan mengklik tombol `Upload Plugin`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/3.PNG?raw=true)
+</p>
+4. Unggah plugin CP Reservation Calendar yang telah diunduh tadi dengan mengklik tombol `Browse...`. Lalu setelah file berhasil diunggah, klik tombol `Install Now` untuk memulai instalasi.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/4.PNG?raw=true)
+</p>
+5. Setelah plugin berhasil di-install, klik tombol `Activate Plugin` untuk mengaktifkan plugin CP Reservation Calendar.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/5.PNG?raw=true)
+</p>
+6. Jika sudah muncul tampilan seperti di bawah, maka Plugin baru telah aktif.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/6.PNG?raw=true)
+</p> 
 
 ---
 
