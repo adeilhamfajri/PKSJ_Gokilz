@@ -325,14 +325,59 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/1.PNG?raw=true)
 </p>
-8. SQLMap menjelaskan bahwa dbms yang digunakan target penetrasi adalah MySQL, dengan menggunakan parameter `match`, potensial untuk diinjeksi, pilih 'Y' untuk pengecekan vulnerable `match` lebih lanjut
+8. SQLMap menjelaskan bahwa dbms yang digunakan target penetrasi adalah MySQL, dengan menggunakan parameter `match`, potensial untuk diinjeksi, pilih `Y` untuk pengecekan vulnerable `match` lebih lanjut
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/2.PNG?raw=true)
 </p>
-9. Pilih `Y`
+9. Pilih `Y` untuk penetrasi lanjutan
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/3.PNG?raw=true)
 </p>
+10. Sampai disini SQLMap berhasil mendeteksi Operasi sistem, Web Server, serta versi DBMS yang digunakan oleh target penetrasi kita
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/4.PNG?raw=true)
+</p>
+11. Kita lanjutkan penetrasi guna mengetahui database apa saja yang terdapat pada target penetrasi kita
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/5.PNG?raw=true)
+</p>
+12. SQLMap berhasil mendeteksi bahwa terdapat 2 Database pada target penetrasi, yaitu `information_schema` dan `wordpress`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/6.PNG?raw=true)
+</p>
+13. Kita lanjutkan penetrasi untuk mengetahui table apa saja yang terdapat pada database `wordpress`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/7.PNG?raw=true)
+</p>
+14. Berikut hasil scanning table pada database `wordpress`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/8.PNG?raw=true)
+</p>
+15. Selanjutkan kita lakukan `dump` table `user`, yang mana kita curigai bahwa table tersebut menyimpan informasi user dan password
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/9.PNG?raw=true)
+</p>
+16. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/10.PNG?raw=true)
+</p>
+17. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/11.PNG?raw=true)
+</p>
+18. Pilih `default dictionary file /usr/share/sqlmap/txt/smalldict.txt`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/12.PNG?raw=true)
+</p>
+19. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/13.PNG?raw=true)
+</p>
+20. Berikut hasil dari table `user` yang baru saja kita dump
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/14.PNG?raw=true)
+</p>
+
 
 ### 2. Tools: WPscan,jsql <--> Plugins: Survey and Poll 1.1
 
