@@ -29,7 +29,7 @@ WordPress adalah sebuah aplikasi open source yang sangat populer digunakan sebag
 ### *Plugins*
 *1. League Manager 3.9.11 (3.9.11)*
 
-*2. -*
+*2. Survey and Poll 1.1*
 
 *3. -*
 
@@ -38,7 +38,7 @@ WordPress adalah sebuah aplikasi open source yang sangat populer digunakan sebag
 
 *2. WPscan*
 
-*3. *
+*3. jsql*
 
 ---
 
