@@ -240,6 +240,24 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/10.PNG?raw=true)
 </p>
 
+### *Instalasi League Manager 3.9.1.1 (3.9.11) (Cara Alternatif)*
+1. install paket zip League Manager 3.9.1.1 melalui terminal
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/a.png?raw=true)
+</p>
+2. Klik `Add New` pada menu plugin yang ada pada dashboard Wordpress bagian plugins, kemudian pilih file zip yang telah didownload tadi agar diupload
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/b.png?raw=true)
+</p>
+3. Pastikan FTP sudah terinstall, kemudian isikan username dan pass FTP, janganlupa hostnya juga
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/c.png?raw=true)
+</p>
+4. Jika sudah selesai menginstall plugin, maka klik `Activate Plugin`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/d.png?raw=true)
+</p>
+
 ### *Instalasi Survey and Poll 1.1*
 1. Masuk ke halaman admin, lalu masuklah ke menu `Plugins` di sebelah kiri.
 <p align="center">
