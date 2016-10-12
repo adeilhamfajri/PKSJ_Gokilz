@@ -309,7 +309,30 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/3.PNG?raw=true)
 </p>
-4. 
+4. Berikut tampilan dari plugin LeagueManager 3.9.1.1
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/0-1.PNG?raw=true)
+</p>
+5. Copy link yang ada pada address bar tersebut
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/0-2.PNG?raw=true)
+</p>
+6. Perhatikan syntax penetrasi terhadap plugin LeagueManager yang dijelaskan pada Exploit-db tersebut
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/0-3.PNG?raw=true)
+</p>
+7. Gunakan syntax penetrasi tadi tersebut pada terminal
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/1.PNG?raw=true)
+</p>
+8. SQLMap menjelaskan bahwa dbms yang digunakan target penetrasi adalah MySQL, dengan menggunakan parameter `match`, potensial untuk diinjeksi, pilih 'Y' untuk pengecekan vulnerable `match` lebih lanjut
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/2.PNG?raw=true)
+</p>
+9. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%201/Lanjutan%201/3.PNG?raw=true)
+</p>
 
 ### 2. Tools: WPscan,jsql <--> Plugins: Survey and Poll 1.1
 
