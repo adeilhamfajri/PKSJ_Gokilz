@@ -245,7 +245,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/1.PNG?raw=true)
 </p>
-2. Unduh plugin Survey and Poll versi 1.1 pada link berikut https://downloads.wordpress.org/plugin/wp-survey-and-poll.1.1.zip.
+2. Unduh plugin Survey and Poll versi 1.1 pada link berikut.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/Survey%20Poll%201.1/2.PNG?raw=true)
 </p>
@@ -267,11 +267,11 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 </p>
 
 ### *Instalasi CP Reservation Calendar 1.1.6*
-1. Unduh file plugin CP Reservation Calendar pada link berikut https://downloads.wordpress.org/plugin/cp-reservation-calendar.1.1.6.zip.
+1. Unduh file plugin CP Reservation Calendar pada link berikut.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/1.PNG?raw=true)
 </p>
-2. Lalu, masuk ke halaman admin dan klik tombol `Add New` pada tab `Plugins`.
+2. Lalu, masuk ke halaman admin dan klik tombol `Add New` pada tab `Plugins` di sebelah kiri.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/CP%20Reservation%20Calendar%201.1.6/2.PNG?raw=true)
 </p>
