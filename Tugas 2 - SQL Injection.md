@@ -188,6 +188,45 @@ WordPress adalah sebuah aplikasi open source yang sangat populer digunakan sebag
 </p>
 
 ### *Instalasi League Manager 3.9.1.1 (3.9.11)*
+1. Pertama-tama masuklah ke direktori */var/www/html/wp-content/plugins/*.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/1.PNG?raw=true)
+</p>
+2. Setelah itu unduh file league manager versi 3.9.1.1 seperti di bawah ini.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/2.PNG?raw=true)
+</p>
+3. Unzip file yang telah diunduh melalui perintah `sudo unzip leaguemanager.3.9.1.1.zip`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/3.PNG?raw=true)
+</p>
+4. Hapus file .zip agar tidak membebani storage, `sudo rm leaguemanager.3.9.1.1.zip`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/4.PNG?raw=true)
+</p>
+5. Untuk mengaktifkan plugin baru, masuklah ke antarmuka admin melalui browser.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/5.PNG?raw=true)
+</p>
+6. Masuklah ke menu `Plugins` di sebelah kanan.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/6.PNG?raw=true)
+</p>
+7. Akan tampak halaman seperti di bawah ini.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/7.PNG?raw=true)
+8. Aktifkan LeagueManager dengan memilih menu `Activate`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/8.PNG?raw=true)
+</p>
+9. Pada bagian atas, pilihlah kolom Activate untuk melihat apakah LeagueManager sudah aktif atau belum.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/9.PNG?raw=true)
+</p>
+10. Jika sudah muncul seperti di bawah, maka Plugin baru telah aktif.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Install%20Plugin/League%20Manager%203.9.1.1/10.PNG?raw=true)
+</p>
 
 ### *Instalasi belum*
 
