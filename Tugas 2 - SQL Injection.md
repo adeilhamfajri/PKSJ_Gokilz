@@ -398,6 +398,55 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 
 
 ### 2. Tools: WPscan,jsql <--> Plugins: Survey and Poll 1.1
+1. Kita lakukan scanning plugin pada objek penetrasi menggunakan wpscan
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/1.PNG?raw=true)
+</p>
+2. Didapati bahwa targer penetrasi menggunakan Plugin "Survey and Poll 1.1"
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/2.PNG?raw=true)
+</p>
+3. Pastikan tool JSQL sudah terinstall, kemudian inputkan syntax Sql Injection ke address bar
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/1.PNG?raw=true)
+</p>
+4. JSQL berhasil mendeteksi bahwa terdapat dua database
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/2.PNG?raw=true)
+</p>
+5. JSQL berhasil mendeteksi jenis serta versi dari DBMS yang digunakan oleh target penetrasi, juga diketahui operasi sistem yang digunakannya
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/3.PNG?raw=true)
+</p>
+6. Pilih database `Wordpress` , nanti akan muncul list dari tablenya
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/4.PNG?raw=true)
+</p>
+7. Pilih table `user`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/5.PNG?raw=true)
+</p>
+8. Dari table `user` kita mendapat semua atributnya
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/6.PNG?raw=true)
+</p>
+9. lakukan `checked` pada atribut `user_email` , `user_login` , `user_nicename` , `user_pass`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/7.PNG?raw=true)
+</p>
+10. Sampai disini kita telah berhasil mendapatkan isi dari atribut-atribut yang kita centang tadi
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/8.PNG?raw=true)
+</p>
+11. Atribut `user_pass` masih dalam keadaan terenkripsi, maka kita coba lakukan brute force
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/9.PNG?raw=true)
+</p>
+12. Pilih fungsi enkripsi yang kira-kira tepat, kemudian klik `start`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/10.PNG?raw=true)
+</p>
+
 
 ### 3. Tools: WPscan,sqlmap <--> Plugins: CP Reservation Calendar 1.1.6
 
