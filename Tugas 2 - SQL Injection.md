@@ -422,15 +422,15 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/4.PNG?raw=true)
 </p>
-7. Pilih table `user`
+7. Pilih table `wp_user`
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/5.PNG?raw=true)
 </p>
-8. Dari table `user` kita mendapat semua atributnya
+8. Dari table `wp_user` kita mendapat semua atributnya
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/6.PNG?raw=true)
 </p>
-9. lakukan `checked` pada atribut `user_email` , `user_login` , `user_nicename` , `user_pass`
+9. lakukan `checked` pada atribut `user_email` , `user_login` , `user_nicename` , `user_pass`. Klik kanan dan pilih `Load`.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/7.png?raw=true)
 </p>
@@ -488,7 +488,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/8.PNG?raw=true)
 </p>
-10. Didapati bahwa ada 2 database, yaitu `information_schema` dan `wordpress'
+10. Didapati bahwa ada 2 database, yaitu `information_schema` dan `wordpress`.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/9.PNG?raw=true)
 </p>
@@ -496,7 +496,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/10.PNG?raw=true)
 </p>
-12. SQLMap berhasil mendeteksi list dari tables di database `wordpress
+12. SQLMap berhasil mendeteksi list dari tables di database `wordpress`
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/11.PNG?raw=true)
 </p>
@@ -534,8 +534,9 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 
 ### *Kesimpulan*
 - Banyak plugin pada WordPress yang dapat dijadikan sarana/jalur untuk meretas WordPress menggunakan metode SQL Injection.
+- WPscan, sqlmap dan jSQL adalah kakas bantu yang dapat digunakan untuk melakukan penetrasi ke dalam web dengan metode SQL Injection.
 
 ### *Saran*
 - Untuk melakukan penetrasi lebih disarankan menggunakan Kali Linux, karena di dalamnya sudah disertakan tool-tool untuk melakukan penetrasi.
-- Pembuatan password untuk sebuah akun harus lebih diperhatikan, yaitu dengan menggunakan kombinasi dari karakter, angka, simbol, dan besar-kecil. Hal ini diperlukan untuk menghindari brute-force attack.
+- Pembuatan password untuk sebuah akun harus lebih diperhatikan, yaitu dengan menggunakan kombinasi dari karakter, angka, simbol, dan besar-kecil huruf. Hal ini diperlukan untuk menghindari brute-force attack.
 - Untuk menghindari serangan pada sistem lakukanlah update berkala pada sistem yang dimiliki baik itu PHP, MySQL, Apache, WordPress dan Plugin pada Wordpress. Update terbaru pada sistem memungkinkan diperbaikinya suatu celah yang sebelumnya ada pada versi lama.
