@@ -432,7 +432,7 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 </p>
 9. lakukan `checked` pada atribut `user_email` , `user_login` , `user_nicename` , `user_pass`
 <p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/7.PNG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%202/Lanjutan%202/7.png?raw=true)
 </p>
 10. Sampai disini kita telah berhasil mendapatkan isi dari atribut-atribut yang kita centang tadi
 <p align="center">
