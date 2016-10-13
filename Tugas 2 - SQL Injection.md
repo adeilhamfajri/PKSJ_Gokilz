@@ -449,6 +449,84 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 
 
 ### 3. Tools: WPscan,sqlmap <--> Plugins: CP Reservation Calendar 1.1.6
+1. Kita lakukan scanning plugin pada objek penetrasi menggunakan wpscan
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/1.PNG?raw=true)
+</p>
+2. Didapati bahwa targer penetrasi menggunakan Plugin "CP Reservation Calendar 1.1.6"
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/2.PNG?raw=true)
+</p>
+3. Copy syntax SQLMap ke terminal sesuai yang telah dijelaskan pada Exploit-db
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/1.PNG?raw=true)
+</p>
+4. Diketahui bahwa DBMS yang digunakan yaitu MySQL
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/2.PNG?raw=true)
+</p>
+5. Diketahui bahwa veris MySQL yang digunakan yaitu 5.0.12
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/3.PNG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/4.PNG?raw=true)
+</p>
+6. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/5.PNG?raw=true)
+</p>
+7. Tetap lakukan `testing` untuk yang lainnya, pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/6.PNG?raw=true)
+</p>
+8. Didapati infomrasi terkait Operasi Sistem, DBMS, dan Web Server yang digunakan
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/7.PNG?raw=true)
+</p>
+9. Kita akan mengecek database apa saja yang terdapat pada DBMS MySql tersebut
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/8.PNG?raw=true)
+</p>
+10. Didapati bahwa ada 2 database, yaitu `information_schema` dan `wordpress'
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/9.PNG?raw=true)
+</p>
+11. Kita akan cek tables apa saja yang terdapat pada database `wordpress`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/10.PNG?raw=true)
+</p>
+12. SQLMap berhasil mendeteksi list dari tables di database `wordpress
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/11.PNG?raw=true)
+</p>
+13. Kita akan lakukan `dump` pada table `wp_users`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/12.PNG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/13.PNG?raw=true)
+</p>
+14. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/14.PNG?raw=true)
+</p>
+15. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/15.PNG?raw=true)
+</p>
+16. Pilih `default dictionary file /usr/share/sqlmap/txt/smalldict`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/16.PNG?raw=true)
+</p>
+17. Pilih `Y`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/17.PNG?raw=true)
+</p>
+18. Table `wp_users` telah berhasil dilakukan `dump`, berikut hasil dari SQL Injection terhadap wordpress target 
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%202%20-%20SQL%20Injection/Uji%20Penetrasi/Uji%203/Lanjutan%203/18.PNG?raw=true)
+</p>
 
 ---
 
