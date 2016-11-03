@@ -540,6 +540,3 @@ jSQL adalah aplikasi open source yang digunakan untuk mencari informasi database
 - Untuk melakukan penetrasi lebih disarankan menggunakan Kali Linux, karena di dalamnya sudah disertakan tool-tool untuk melakukan penetrasi.
 - Pembuatan password untuk sebuah akun harus lebih diperhatikan, yaitu dengan menggunakan kombinasi dari karakter, angka, simbol, dan besar-kecil huruf. Hal ini diperlukan untuk menghindari brute-force attack.
 - Untuk menghindari serangan pada sistem lakukanlah update berkala pada sistem yang dimiliki baik itu PHP, MySQL, Apache, WordPress dan Plugin pada Wordpress. Update terbaru pada sistem memungkinkan diperbaikinya suatu celah yang sebelumnya ada pada versi lama.
-<p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%203%20-%20Analisis%20Malware/install_virtualbox.png?raw=true)
-</p>
