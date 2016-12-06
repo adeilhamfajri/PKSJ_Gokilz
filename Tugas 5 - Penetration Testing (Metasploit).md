@@ -28,8 +28,14 @@ Metasploit adalah sebuah penetration tool yang cukup powerful untuk melakukan pe
 ## Penjelasan Instalasi
 
 ### *Metaploit*
+1. Jika Anda menggunakan Kali Linux, di dalamnya telah tersedia tool Metaploit. Cara membukanya adalah dengan klik tulisan `Applications` di pojok kiri atas.
+2. Pilih `8 - Exploitation Tools`. Kemudian pilih `Metasploit Framework`.
+3. Setelah Anda membuka tool tersebut, maka secara otomatis Anda akan membuka sebuah Terminal yang di dalamnya terdapat sebuah msfconsole.
 
 ### *Metaploitable*
+
+### *Nmap*
+1. Nmap adalah salah satu tool yang sudah tersedia di dalam Kali Linux. Jika Anda ingin mengetahui apakah di dalam OS Anda telah tersedia Nmap atau belum, Anda dapat membuka terminal dan memasukkan perintah `nmap`. Tampilan akan berganti seperti di bawah ini apabila Anda telah menginstall Nmap.
 
 
 ---
