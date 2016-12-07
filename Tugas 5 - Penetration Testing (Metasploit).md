@@ -45,6 +45,14 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 </p>
 
 ### *Metasploitable*
+1. Pertama-tama kita unduh dahulu file Metasploitable, file bisa di unduh di sini :
+2. Ekstrak file yang telah kita unduh.
+3. Pada Virtual Box, kita pilih untuk membuat Baru.
+4. Berikan nama sesuai keinginan Anda, pilih tipenya yaitu *Linux* dan versinya *Ubuntu (32-bit)*.
+5. Alokasikan memori (RAM) sesuai kebutuhan (512 MB sudah dapat berjalan dengan baik).
+6. Pilih menu ketiga yaitu *Gunakan berkas hard disk virtual yang ada*, kemudian pilih icon kecil di sebelah kanan.
+7. Pilih file *Metasploitable.vmdk*.
+8. Jika sudah, jalankan Metasploitable dan masukkan username dan password (default username / password = msfadmin).
 
 ### *Nmap*
 1. Nmap adalah salah satu tool yang sudah tersedia di dalam Kali Linux. Jika Anda ingin mengetahui apakah di dalam OS Anda telah tersedia Nmap atau belum, Anda dapat membuka terminal dan memasukkan perintah `nmap`. Tampilan akan berganti seperti di bawah ini apabila Anda telah menginstall Nmap.
