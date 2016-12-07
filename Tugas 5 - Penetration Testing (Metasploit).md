@@ -96,6 +96,64 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/3.JPG?raw=true)
 </p>
+5. Kemudian ketikkan `openvas-nvt-sync`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/4.JPG?raw=true)
+</p>
+6. Akan didapatkan hasil seperti gambar di bawah ini :
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/5.JPG?raw=true)
+</p>
+7. kemudian check lagi : `openvas-check-setup`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/6.JPG?raw=true)
+</p>
+8. kemudian ketikkan di terminal : `openvas-mkcert-client -n -i`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/7.JPG?raw=true)
+</p>
+9. Jika berhasil, akan muncul seperti ini : 
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/8.JPG?raw=true)
+</p>
+10. kemucian cek lagi, `openvas-check-setup`
+11. Sekarang coba jalankan openvas dengan syntax : `openvas-start`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/10.JPG?raw=true)
+</p>
+12. Jika masih belum berhasil, maka coba cek, apa lagi yang dibutuhkan : `openvas-check-setup`
+13. Saatnya membuat akun untuk autentikasi,  ketikkan : `openvasmd --create-user=root --role=Admin && openvasmd --user=root --new-password=root`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/12.JPG?raw=true)
+</p>
+14. Cek lagi kebutuhan packagenya : `openvas-check-setup`
+15. kemudian ketikkan : `openvas-scapdata-sync`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/14.JPG?raw=true)
+</p>
+16. cek lagi : `openvas-check-setup`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/15.JPG?raw=true)
+</p>
+17. Kemudian ketikkan : `openvas-certdata-sync`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/16.JPG?raw=true)
+</p>
+18. cek lagi : `openvas-check-setup`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/17.JPG?raw=true)
+</p>
+19. Instalasi OpenVas telah berhasil, kemudian jalankan openvas : `openvas-start`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/18.JPG?raw=true)
+</p>
+20. Akses OpenVas pada url : https:127.0.0.1:9392 , username : root dan password : root
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/19.JPG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/20.JPG?raw=true)
+</p>
 ---
 
 ## Penetration Testing
