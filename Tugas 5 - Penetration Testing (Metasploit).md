@@ -85,12 +85,17 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 ### *OpenVAS*
 1. Pertama-tama, lakukan `apt-get update`
 2. Kemudian ketikkan di terminal : `openvas-check-setup` , nanti akan muncul instruksi untuk membuat CA
-3. ketikkan `openvas-mkcert`, sehingga akan muncul gambar seperti di bawah ini :
+3. ketikkan `openvas-mkcert`, sehingga akan muncul gambar seperti di bawah ini -kemudian isi field yang tersedia- :
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/1.JPG?raw=true)
 </p>
-
-
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/2.JPG?raw=true)
+</p>
+4. Lakukan pengecekan proses instalasi dengan syntax `openvas-check-setup` seperti pada gambar di bawah ini
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/3.JPG?raw=true)
+</p>
 ---
 
 ## Penetration Testing
