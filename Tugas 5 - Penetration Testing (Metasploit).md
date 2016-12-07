@@ -11,7 +11,7 @@ Beberapa perusahaan atau organisasi pasti menyimpan data-data sensitif (seperti 
 
 Penetration testing (disingkat pentest) adalah suatu kegiatan dimana seseorang mencoba mensimulasikan serangan yang bisa dilakukan terhadap jaringan perusahaan atau organisasi tertentu untuk menemukan kelemahan yang ada pada sistem jaringan tersebut. Orang yang melakukan kegiatan ini disebut penetration tester (disingkat pentester).
 
-Salah satu tools yang umum digunakan untuk penetration testing adalah Metasploit. Maka dari itu, disini kami akan mencoba melakukan penetration testing menggunakan Metasploit dengan beberapa exploit yang ada ke sebuah mesin virtual Metasploitable yang memang dirancang untuk rentan terhadap penetrasi.
+Salah satu tools yang umum digunakan untuk penetration testing adalah Metasploit. Maka dari itu, disini kami akan mencoba melakukan penetration testing menggunakan Metasploit dengan beberapa exploit yang ada ke sebuah virtual machine Metasploitable yang memang dirancang untuk rentan terhadap penetrasi.
 
 ---
 
@@ -21,8 +21,10 @@ Salah satu tools yang umum digunakan untuk penetration testing adalah Metasploit
 Metasploit adalah sebuah penetration tool yang cukup powerful untuk melakukan penestrasi kedalam sebuah sistem. Metasploit bisa juga dikatakan sebagai sebuah platform pengembangan untuk membuat security tools dan exploit. Metasploit ini biasanya digunakan oleh profesional keamanan jaringan untuk melakukan tes penetrasi. Metasploit menyerang dengan cara mengirimkan exploit yang berisi payload yang sudah ditentukan oleh penyerang sistem pada komputer korban. Metaspoit ditulis dalam bahasa pemrograman Ruby.
 
 ### *Metasploitable*
-
+Metasploitable adalah sebuah Linux virtual machine yang memang secara sengaja dibuat untuk memiliki vulnerable terhadap serangan. Virtual machine ini bisa digunakan untuk melakukan security training, sebagai test security tools, dan bisa juga untuk mempraktikkan teknik penetration testing yang umum.
+ 
 ### *Nmap*
+Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untuk mengesksplorasi jaringan. Nmap didesain untuk dapat melakukan scan jaringan yang besar, juga dapat digunakan untuk melakukan scan host tunggal. Nmap menggunakan paket IP untuk menentukan host-host yang aktif dalam suatu jaringan, port-port yang terbuka, sistem operasi yang dipunyai, tipe firewall yang dipakai, dll. 
 
 ### *OpenVAS*
 
