@@ -81,6 +81,16 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20Nmap/1.PNG?raw=true)
 </p>
 
+
+### *OpenVAS*
+1. Pertama-tama, lakukan `apt-get update`
+2. Kemudian ketikkan di terminal : `openvas-check-setup` , nanti akan muncul instruksi untuk membuat CA
+3. ketikkan `openvas-mkcert`, sehingga akan muncul gambar seperti di bawah ini :
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/1.JPG?raw=true)
+</p>
+
+
 ---
 
 ## Penetration Testing
