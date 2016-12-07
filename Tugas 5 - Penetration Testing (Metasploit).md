@@ -1,4 +1,4 @@
-﻿# Tugas 5 - Penetration Testing Metasploit
+# Tugas 5 - Penetration Testing Metasploit
 ##### *PKSJ Kelompok 8:*
 - *Muhammad Faiez Ananda (5113100055)*
 - *Ade Ilham Fajri (5113100058)*
@@ -7,7 +7,11 @@
 ---
 
 ## Pendahuluan
+Beberapa perusahaan atau organisasi pasti menyimpan data-data sensitif (seperti password user, kode PIN, dll.) di sistemnya. Tentu saja perusahaan tersebut tidak ingin sistemnya dibobol oleh orang-orang yang tidak bertanggung jawab yang kemudian bisa mengambil alih kontrol sistem dan menimbulkan kerugian yang sangat besar. Oleh karena alasan itu, biasanya perusahaan atau organisasi menginvestasikan dana untuk memperkuat sistemnya. Salah satu metode paling efektif adalah melakukan penetration testing. Dengan melakukan penetration testing, celah-celah keamanan yang ada dapat diketahui dan dengan demikian dapat diperbaiki sebelum ada penyerang yang memanfaatkan celah tersebut. Seorang penetration terser mensimulasikan serangan yang dapat dilakukan, menjelaskan resiko yang bisa terjadi, dan melakukan perbaikan sistem tanpa merusak infrastruktur sistem perusahaan atau organisasi tersebut.
 
+Penetration testing (disingkat pentest) adalah suatu kegiatan dimana seseorang mencoba mensimulasikan serangan yang bisa dilakukan terhadap jaringan perusahaan atau organisasi tertentu untuk menemukan kelemahan yang ada pada sistem jaringan tersebut. Orang yang melakukan kegiatan ini disebut penetration tester (disingkat pentester).
+
+Salah satu tools yang umum digunakan untuk penetration testing adalah Metasploit. Maka dari itu, disini kami akan mencoba melakukan penetration testing menggunakan Metasploit dengan beberapa exploit yang ada ke sebuah mesin virtual Metasploitable yang memang dirancang untuk rentan terhadap penetrasi.
 
 ---
 
@@ -27,7 +31,7 @@ Metasploit adalah sebuah penetration tool yang cukup powerful untuk melakukan pe
 
 ## Penjelasan Instalasi
 
-### *Metaploit*
+### *Metasploit*
 1. Jika Anda menggunakan Kali Linux, di dalamnya telah tersedia tool Metaploit. Cara membukanya adalah dengan klik tulisan `Applications` di pojok kiri atas.
 2. Pilih `8 - Exploitation Tools`. Kemudian pilih `Metasploit Framework`.
 <p align="center">
@@ -38,7 +42,7 @@ Metasploit adalah sebuah penetration tool yang cukup powerful untuk melakukan pe
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20Metasploit/2.PNG?raw=true)
 </p>
 
-### *Metaploitable*
+### *Metasploitable*
 
 ### *Nmap*
 1. Nmap adalah salah satu tool yang sudah tersedia di dalam Kali Linux. Jika Anda ingin mengetahui apakah di dalam OS Anda telah tersedia Nmap atau belum, Anda dapat membuka terminal dan memasukkan perintah `nmap`. Tampilan akan berganti seperti di bawah ini apabila Anda telah menginstall Nmap.
