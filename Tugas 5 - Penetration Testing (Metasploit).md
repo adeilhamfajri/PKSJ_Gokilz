@@ -45,7 +45,7 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 </p>
 
 ### *Metasploitable*
-1. Pertama-tama kita unduh dahulu file Metasploitable, file bisa di unduh di sini : [a link][https://sourceforge.net/projects/metasploitable/files/Metasploitable2/metasploitable-linux-2.0.0.zip/download]
+1. Pertama-tama kita unduh dahulu file Metasploitable, file bisa di unduh di sini : [https://sourceforge.net/projects/metasploitable/files/Metasploitable2/metasploitable-linux-2.0.0.zip/download]
 2. Ekstrak file yang telah kita unduh.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20Metasploitable/1.PNG?raw=true)
