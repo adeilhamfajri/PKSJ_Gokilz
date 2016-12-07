@@ -56,9 +56,11 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 
 ## Penetration Testing
 
-### php_cgi_arg_injection
+### Exploit : php_cgi_arg_injection, Post Exploitation :
 
-### usermap_script
+### Exploit : usermap_script, Post Exploitation :
+
+### Exploit : vsftpd_234_backdoor, Post Exploitation : 
 
 
 ## Kesimpulan dan Saran
