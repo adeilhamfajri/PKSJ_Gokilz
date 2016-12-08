@@ -27,7 +27,7 @@ Metasploitable adalah sebuah Linux virtual machine yang memang secara sengaja di
 Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untuk mengesksplorasi jaringan. Nmap didesain untuk dapat melakukan scan jaringan yang besar, juga dapat digunakan untuk melakukan scan host tunggal. Nmap menggunakan paket IP untuk menentukan host-host yang aktif dalam suatu jaringan, port-port yang terbuka, sistem operasi yang dipunyai, tipe firewall yang dipakai, dll. 
 
 ### *OpenVAS*
-
+OpenVAS (Open Vulnerability Assessment System) merupakan alat bantu yang banyak digunakan untuk mencari celah keamanan dan menguji keamanan sebuah sistem. OpenVAS masih satu keluarga dengan Nessus (tools yang juga banyak digunakan untuk melakukan scanning pada web). Hanya saja, tidak seperti Nessus, OpenVAS ini merupakan program open source.
 
 ---
 
@@ -154,6 +154,7 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/20.JPG?raw=true)
 </p>
+
 ---
 
 ## Penetration Testing
