@@ -29,7 +29,7 @@ Nmap (atau "Network Mapper") adalah sebuah program open source yang berguna untu
 ### *OpenVAS*
 OpenVAS (Open Vulnerability Assessment System) merupakan alat bantu yang banyak digunakan untuk mencari celah keamanan dan menguji keamanan sebuah sistem. OpenVAS masih satu keluarga dengan Nessus (tools yang juga banyak digunakan untuk melakukan scanning pada web). Namun, yangmembedakan antara keduanya adalah OpemVAS ini merupakan tools open source. Fitur-fiter yang disediakan oleh OpenVAS antara lain bisa melakukan scanning beberapa target secara paralel, support SSL, support WMI, dan juga Greenbone yang menjadi GUI dari OpenVAS ini.
 
-### *John de Ripper*
+### *John The Ripper*
 John The Ripper adalah suatu cracker password yang cepat yang tersedia pada banyak platfom, antara lain UNIX, Windows, DOS, BeOS dan OpenVMS. Tujuan utama dari John The Ripper adalah untuk mendeteksi kelemahan password pada sistem UNIX (termasuk Linux). John The Ripper merupakan program yang dapat membantu administrator menentukan kelayakan suatu password. Namun, John The Ripper juga digunakan oleh pihak-pihak yang tidak berkepentigan untuk mendapatkan password seorang user.
 
 ---
@@ -197,7 +197,7 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/15.PNG?raw=true)
 </p>
-16. Databse berupa usernam password yang berhasil kita dapatkan telah di enkripsi. Untuk itu kita perlu melakukan *dictionary attack* dengan bantuan tool lain yaitu *John de Ripper*. Pertama masuklah ke direktori `/usr/sbin`. Jalan kan file john ddengan perintah `./john [ALAMAT_FILE_DUMP]`.
+16. Databse berupa usernam password yang berhasil kita dapatkan telah di enkripsi. Untuk itu kita perlu melakukan *dictionary attack* dengan bantuan tool lain yaitu *John The Ripper*. Pertama masuklah ke direktori `/usr/sbin`. Jalan kan file john ddengan perintah `./john [ALAMAT_FILE_DUMP]`.
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Penetration/Samba%20usermap_script/16.PNG?raw=true)
 </p>
