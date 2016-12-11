@@ -79,16 +79,19 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 </p>
 
 ### *Nmap*
+1. Nmap adalah salah satu tool yang sudah tersedia di dalam Kali Linux. Jika Anda ingin mengetahui apakah di dalam OS Anda telah tersedia Nmap atau belum, Anda dapat membuka terminal dan memasukkan perintah `nmap`. Tampilan akan berganti seperti di bawah ini apabila Anda telah menginstall Nmap.
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20Nmap/1.PNG?raw=true)
+</p>
+
+### *OpenVas*
 1. Pertama-tama, lakukan terlebih dahulu update; `apt-get update`
 2. Kemudian install openVas dengan syntax : `apt-get install openvas`
-3. Setelah usai mendownload, coba jalankan : `openvas-start` 
+3. Setelah usai mendownload, coba jalankan : `openvas-start`
 4. Jika didapati tidak bisa dioperasikan, maka lakukan pengecekan : `openvas-check-setup`
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/3.JPG?raw=true)
 </p>
-
-### *OpenVas*
-
 
 ---
 
