@@ -91,7 +91,15 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 4. Jika didapati tidak bisa dioperasikan, maka lakukan pengecekan : `openvas-check-setup`
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/3.JPG?raw=true)
-</p> fff
+</p>
+5. Instalasi OpenVas meminta agar menjalankan syntax : `openvas-mkcert` , nanti akan muncul tampilan seperti ini :
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/1.JPG?raw=true)
+</p>
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/2.JPG?raw=true)
+</p>
+6.
 
 ---
 
