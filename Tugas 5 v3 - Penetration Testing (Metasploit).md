@@ -98,7 +98,7 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 </p>
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/2.JPG?raw=true)
-</p>
+</p> q
 6.
 
 ---
