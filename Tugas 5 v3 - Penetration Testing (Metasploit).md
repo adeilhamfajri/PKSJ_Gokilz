@@ -98,8 +98,25 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 </p>
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/2.JPG?raw=true)
-</p> aaaa
-6.
+</p> 
+6. Kemudian cek lagi, `openvas-check-setup`
+7. Kita diperintahkan untuk : `openvas-nvt-sync`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/4.JPG?raw=true)
+</p>
+8. Anda muncul seperti ini :
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/5.JPG?raw=true)
+</p>
+9. cek kembali : `openvas-check-setup`
+10. Kita diperintahkan untuk menginsertkan pada terminal : `openvas-mkcert-client -n -i`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/7.JPG?raw=true)
+</p>
+11. Silahkan diisi field yang tersedia
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/8.JPG?raw=true)
+</p>
 
 ---
 
