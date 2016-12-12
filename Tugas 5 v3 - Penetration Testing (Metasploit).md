@@ -109,13 +109,41 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/5.JPG?raw=true)
 </p>
 9. cek kembali : `openvas-check-setup`
-10. Kita diperintahkan untuk menginsertkan pada terminal : `openvas-mkcert-client -n -i`
+10. Kita diperintahkan untuk menyertakan sytax berikut pada terminal : `openvas-mkcert-client -n -i`
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/7.JPG?raw=true)
 </p>
 11. Silahkan diisi field yang tersedia
 <p align="center">
 ![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/8.JPG?raw=true)
+</p>
+12. Cek kembali : `openvas-check-setup`
+13. Kita diperintahkan untuk membuat akun user beserta password :`openvasmd --create-user=root --role=Admin && openvasmd --user=root --new-password=root`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/12.JPG?raw=true)
+</p>
+14. Cek kembali : `openvas-check-setup`
+15. Diminta untuk melakukan : `openvas-scapdata-sync`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/14.JPG?raw=true)
+</p>
+16. Cek kembali : `openvas-check-setup`
+17.Inputkan pada terminal : `openvas-certdata-sync`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/16.JPG?raw=true)
+</p>
+18. Cek kembali : `openvas-check-setup`
+19. Proses instalasi selesai, kemudian jalankan Openvas : `openvas-start`
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/18.JPG?raw=true)
+</p>
+20. Tampilan halaman awal OpenVas, silahkan inputkan username : "root" dan password: "root"
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/19.JPG?raw=true)
+</p>
+21. Tampilan halaman setelah login
+<p align="center">
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/20.JPG?raw=true)
 </p>
 
 ---
