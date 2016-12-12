@@ -157,19 +157,19 @@ John The Ripper adalah suatu cracker password yang cepat yang tersedia pada bany
 </p>
 2. Inputkan IP Address target 
 <p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/21.JPG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Uji%20Coba%20OpenVas/21.JPG?raw=true)
 </p>
 3. Tunggu proses scanning
 <p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/22.JPG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Uji%20Coba%20OpenVas/22.JPG?raw=true)
 </p>
 4. Didapatkan list Vulnerability, diantaranya : `PHP-CGI-based setups vulnerability`
 <p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/23.JPG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Uji%20Coba%20OpenVas/23.JPG?raw=true)
 </p>
 5. Penjelasan detail dari vulnerability terkait 
 <p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Install%20OpenVas/24.JPG?raw=true)
+![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%205%20-%20Penetration%20Testing%20(Metasploit)/Uji%20Coba%20OpenVas/24.JPG?raw=true)
 </p>
 
 ### Exploit : php_cgi_arg_injection, Post Exploitation : enum_system
