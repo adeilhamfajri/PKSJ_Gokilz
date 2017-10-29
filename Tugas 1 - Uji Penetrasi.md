@@ -34,7 +34,8 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 1. Buka Virtual Box atau software virtualisasi sejenis, disini kami menggunakan Virtual Box.
 2. Setelah halaman utama Virtual Box terbuka, pilih menu `Baru` di pojok kiri atas (icon menu adalah lingkaran biru bergerigi).
 <p align="center">
-![](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG?raw=true)
+![alt text](https://raw.githubusercontent.com/adeilhamfajri/PKSJ_Gokilz/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG)
+  https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG?raw=true
 </p>
 3. Pada langkah selanjutnya, masukkan nama untuk mesin virtual Anda (disini kami memberikan nama XenialServer, yang mengacu pada versi ubuntu 16.04 Xenial Xerus).
 4. Pilihlah tipe Sistem Operasi yang akan dibuat (kami menggunakan Linux) dan pilihlah versi dari Sistem Operasi (kami menggunakan Ubuntu 64-bit).
