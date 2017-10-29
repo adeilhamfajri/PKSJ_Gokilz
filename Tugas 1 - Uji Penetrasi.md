@@ -7,7 +7,7 @@
 ## Pendahuluan
 Dalam dunia komunikasi data dan perkembangan teknologi informasi yang senantiasa berubah, keamanan sistem dan jaringan merupakan suatu isu yang sangat penting. Perlu kita sadari bahwa untuk mencapai suatu keamanan itu adalah suatu hal yang sangat mustahil. Namun kita bisa melakukan pencagahan untuk mengurangi gangguan tersebut.
 
-Salah satu metode pengamanan sistem yang umum diketahui banyak orang adalah password. Tanpa disadari password mempunyai peranan penting dalam mengamankan informasi-informasi yang sifatnya pribadi (confidential). Tetapi banyak dari para pengguna password yang membuat password secara sembarangan tanpa mengetahui kebijakan pengamanan (password policy) dan bagaimana membuat password yang kuat (strong password). Mereka tidak sadar dengan bahayanya para ‘penyerang’ (attacker) yang dapat mencuri atau mengacak-acak informasi tersebut.
+Salah satu metode pengamanan sistem yang umum diketahui banyak orang adalah password. Tanpa disadari password mempunyai peranan penting dalam mengamankan informasi-informasi yang sifatnya pribadi (confidential). Tetapi banyak dari para pengguna password yang membuat password secara sembarangan tanpa mengetahui kebijakan pengamanan (password policy) dan bagaimana membuat password yang kuat (strong password). Mereka tidak sadar dengan bahayanya para â€˜penyerangâ€™ (attacker) yang dapat mencuri atau mengacak-acak informasi tersebut.
 
 Oleh karena itu, disini kami akan mencoba untuk melakukan penetrasi ke server menggunakan teknik brute force untuk mendapatkan password. Dan kami juga mencontohkan counter measure dari serangan brute force tersebut.
 
@@ -34,7 +34,7 @@ SSHGuard adalah sebuah program yang memonitor layanan yang sedang berjalan dari 
 1. Buka Virtual Box atau software virtualisasi sejenis, disini kami menggunakan Virtual Box.
 2. Setelah halaman utama Virtual Box terbuka, pilih menu `Baru` di pojok kiri atas (icon menu adalah lingkaran biru bergerigi).
 <p align="center">
-![alt text](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG?raw=true)
+![](https://github.com/adeilhamfajri/PKSJ_Gokilz/blob/master/Dokumentasi/Tugas%201%20-%20Uji%20Penetrasi/Ubuntu%20Server/1.PNG?raw=true)
 </p>
 3. Pada langkah selanjutnya, masukkan nama untuk mesin virtual Anda (disini kami memberikan nama XenialServer, yang mengacu pada versi ubuntu 16.04 Xenial Xerus).
 4. Pilihlah tipe Sistem Operasi yang akan dibuat (kami menggunakan Linux) dan pilihlah versi dari Sistem Operasi (kami menggunakan Ubuntu 64-bit).
